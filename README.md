@@ -7,3 +7,5 @@ Student kantine TRONDHEIM NTNU:
 - Mulighet for å legge inn tekstboks 
 - Mulighet for å søke restaurant - skrive det inn selv 
 - Mulighet for å lagre --> databaser? 
+
+heihei
