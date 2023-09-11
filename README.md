@@ -6,4 +6,4 @@ Student kantine TRONDHEIM NTNU:
 - Eller legge inn stjerner manuelt 
 - Mulighet for å legge inn tekstboks 
 - Mulighet for å søke restaurant - skrive det inn selv 
-- Mulighet for å lagre?? 
+- Mulighet for å lagre --> databaser? 
