@@ -1,7 +1,7 @@
 Klient - Imaginary --> student 
 Ideer: 
 - Mat - reviews, matretter og oppskrifter 
-Restauranter: 
+Student kantine TRONDHEIM NTNU: 
 - Mulighet til å legge inn review selv 
 - Eller legge inn stjerner manuelt 
 - Mulighet for å legge inn tekstboks 
