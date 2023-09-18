@@ -54,5 +54,12 @@ På hver av fanene skal det være bilde av kantine/kafé, bilder av maten, revie
 et sted hvor du kan skrive din egen anmeldelse. 
 
  - spesifikke preferanser 
+
+Brukeren kan skrive inn sin egen anmeldelse + velge antall stjerner
+Brukeren kan trykke på linker for å komme til de forskjellige kantinene og matutvalget
+En måte slik at brukeren kan refreshe anmeldelsene om den ønsker å se noen andre sine anmeldelser, og det kommer i tilfeldig rekkefølge
+
+
+
  - final location av websiten 
  - tekniske vanskeligheter som vi tror kommer til å være vanskelig 
