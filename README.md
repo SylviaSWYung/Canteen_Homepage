@@ -26,24 +26,24 @@ should be made before the meeting with your project advisor:
  functional requirements:
  non-functional requirements:
 
- Ha i HTML dokumentet vår: 
+# Ha i HTML dokumentet vår: 
  - Et avsnitt om klienten 
 
 Ola Nordmann går 2. året på Bioteknologi på NTNU i Trondheim. Han er ustrukturert og ubesluttsom, og trenger hjelp med 
 å finne ut hvilken kantine/kafé som har best matutvalg. 
 
- - Purpose and goals om oppgaven, og nettsiden 
+## - Purpose and goals om oppgaven, og nettsiden 
 
 Hensikten med oppgaven er å hjelpe Ola Nordmann, og medstudentene hans, å finne ut hvilke kantiner/kaféer som 
 passer best. Dette skal vi gjøre ved å lage en nettside der det ligger anmeldelser av både mat og kantine/kafé, 
 som kan vise Ola til hvor han bør handle. Eventuelt skal vi få til at brukeren av nettsiden, Ola Nordmann, 
 kan skrive inn sin egen anmeldelse av maten slik at det faktisk blir "ekte" anmeldelser. 
 
- - Audience - målgruppe 
+## - Audience - målgruppe 
 
 Studenter på Gløshaugen, NTNU Trondheim
 
- - Innhold på nettsiden og organisasjonen, hva vi skal ha f.eks about osv. 
+## - Innhold på nettsiden og organisasjonen, hva vi skal ha f.eks about osv. 
 
 4-5 faner/html-filer for hver av kantinene på Gløshaugen. 
 
@@ -53,7 +53,7 @@ Litt om oss, hjemknapp og søkefelt
 På hver av fanene skal det være bilde av kantine/kafé, bilder av maten, reviews samt
 et sted hvor du kan skrive din egen anmeldelse. 
 
- - spesifikke preferanser 
+## - spesifikke preferanser 
 
 Brukeren kan skrive inn sin egen anmeldelse + velge antall stjerner
 Brukeren kan trykke på linker for å komme til de forskjellige kantinene og matutvalget
@@ -61,5 +61,5 @@ En måte slik at brukeren kan refreshe anmeldelsene om den ønsker å se noen an
 
 
 
- - final location av websiten 
- - tekniske vanskeligheter som vi tror kommer til å være vanskelig 
+## - final location av websiten 
+## - tekniske vanskeligheter som vi tror kommer til å være vanskelig 
