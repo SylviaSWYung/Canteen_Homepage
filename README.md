@@ -65,4 +65,5 @@ Brukeren skal kunne komme til referansene på ett klikk fra navigasjonen
 
 
 ## - final location av websiten
+folk.stud.no/markse
 ## - tekniske vanskeligheter som vi tror kommer til å være vanskelig 
