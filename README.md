@@ -9,3 +9,10 @@ Student kantine TRONDHEIM NTNU:
 - Mulighet for å lagre --> databaser? 
 
 Fordeling av oppgaver:
+
+Jennica
+Helle
+Markus
+Sylvia
+Odin
+Adele
