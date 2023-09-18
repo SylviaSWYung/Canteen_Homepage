@@ -27,8 +27,18 @@ should be made before the meeting with your project advisor:
  non-functional requirements:
 
  Ha i HTML dokumentet vår: 
- - En avsnitt om klienten 
+ - Et avsnitt om klienten 
+
+Ola Nordmann går 2. året på Bioteknologi på NTNU i Trondheim. Han er ustrukturert og ubesluttsom, og trenger hjelp med 
+å finne ut hvilken kantine/kafé som har best matutvalg. 
+
  - Purpose and goals om oppgaven, og nettsiden 
+
+Hensikten med oppgaven er å hjelpe Ola Nordmann, og medstudentene hans, å finne ut hvilke kantiner/kaféer som 
+passer best. Dette skal vi gjøre ved å lage en nettside der det ligger anmeldelser av både mat og kantine/kafé, 
+som kan vise Ola til hvor han bør handle. Eventuelt skal vi få til at brukeren av nettsiden, Ola Nordmann, 
+kan skrive inn sin egen anmeldelse av maten slik at det faktisk blir "ekte" anmeldelser. 
+
  - Audience - målgruppe 
  - Innhold på nettsiden og organisasjonen, hva vi skal ha f.eks about osv. 
  - spesifikke preferanser 
