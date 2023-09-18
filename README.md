@@ -25,3 +25,12 @@ should be made before the meeting with your project advisor:
 
  functional requirements:
  non-functional requirements:
+
+ Ha i HTML dokumentet vår: 
+ - En avsnitt om klienten 
+ - Purpose and goals om oppgaven, og nettsiden 
+ - Audience - målgruppe 
+ - Innhold på nettsiden og organisasjonen, hva vi skal ha f.eks about osv. 
+ - spesifikke preferanser 
+ - final location av websiten 
+ - tekniske vanskeligheter som vi tror kommer til å være vanskelig 
