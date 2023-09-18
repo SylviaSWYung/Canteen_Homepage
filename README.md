@@ -59,6 +59,9 @@ Brukeren kan skrive inn sin egen anmeldelse + velge antall stjerner
 Brukeren kan trykke på linker for å komme til de forskjellige kantinene og matutvalget
 En måte slik at brukeren kan refreshe anmeldelsene om den ønsker å se noen andre sine anmeldelser, og det kommer i tilfeldig rekkefølge
 
+Nettsiden skal lastes inn på 1 sekund
+Brukeren skal kunne komme til referansene på ett klikk fra navigasjonen
+
 
 
 ## - final location av websiten 
