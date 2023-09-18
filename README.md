@@ -65,5 +65,4 @@ Brukeren skal kunne komme til referansene på ett klikk fra navigasjonen
 
 
 ## - final location av websiten
-folk.ntnu.no/Markse
 ## - tekniske vanskeligheter som vi tror kommer til å være vanskelig 
