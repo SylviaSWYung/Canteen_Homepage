@@ -53,7 +53,7 @@ Litt om oss, hjemknapp og søkefelt
 På hver av fanene skal det være bilde av kantine/kafé, bilder av maten, reviews samt
 et sted hvor du kan skrive din egen anmeldelse. 
 
-## - spesifikke preferanser 
+## Spesifikke preferanser
 
 Brukeren kan skrive inn sin egen anmeldelse + velge antall stjerner
 Brukeren kan trykke på linker for å komme til de forskjellige kantinene og matutvalget
@@ -64,5 +64,5 @@ Brukeren skal kunne komme til referansene på ett klikk fra navigasjonen
 
 
 
-## - final location av websiten 
-## - tekniske vanskeligheter som vi tror kommer til å være vanskelig 
+## - Final location av websiten 
+## - Tekniske vanskeligheter som vi tror kommer til å være vanskelig 
