@@ -61,8 +61,10 @@ En måte slik at brukeren kan refreshe anmeldelsene om den ønsker å se noen an
 
 Nettsiden skal lastes inn på 1 sekund
 Brukeren skal kunne komme til referansene på ett klikk fra navigasjonen
-
-
+Brukeren skal komme til hjem-nettsiden ved ett klikk
 
 ## - Final location av websiten 
+
+NTNU i Trondheim
+
 ## - Tekniske vanskeligheter som vi tror kommer til å være vanskelig 
