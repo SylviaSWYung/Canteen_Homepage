@@ -10,12 +10,12 @@ Student kantine TRONDHEIM NTNU:
 
 Fordeling av oppgaver:
 
-Jennica
-Helle
-Markus
-Sylvia
-Odin
-Adele
+Jennica: evt adde mer tekst 
+Helle: add bilde av klient og kantine 
+Markus: setter opp sectioner 
+Sylvia: style sheet 
+Odin: fikse hans egen git så han kan bli med 
+Adele: har bidratt med README.md 
 
 
 - The project team must meet and agree on the web site's purpose, goals, audience, and
