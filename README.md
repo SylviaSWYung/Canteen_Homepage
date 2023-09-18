@@ -8,4 +8,4 @@ Student kantine TRONDHEIM NTNU:
 - Mulighet for å søke restaurant - skrive det inn selv 
 - Mulighet for å lagre --> databaser? 
 
-heihei
+Fordeling av oppgaver:
