@@ -16,12 +16,3 @@ Markus
 Sylvia
 Odin
 Adele
-
-
-- The project team must meet and agree on the web site's purpose, goals, audience, and
-final location of the website with the client.
-- The meeting/brainstorming should result in a draft of the requirements for the website, which
-should be made before the meeting with your project advisor:
-
- functional requirements:
- non-functional requirements:
