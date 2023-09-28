@@ -3,7 +3,6 @@ Målet i dag + information
     - Burguder --> 800020 
     - Gul --> FEE6B5 
     - Gjennomsiktig rød --> DEB1B1 
-
 - Font: 
     - Verdana - midlertidig 
 - Layout 
@@ -29,3 +28,4 @@ Generelt for alle nettsider:
 - footer --> Adele
 - style review --> Odin
 - nedtrekkbar liste --> Sylvia
+
