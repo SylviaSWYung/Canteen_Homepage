@@ -1,5 +1,8 @@
-Målet i dag: 
-- Finne farge koder
+Målet i dag + information
+- Farger:
+    - Burguder --> 800020 
+- Font: 
+    - Verdana - midlertidig 
 - Layout 
 - Navnet på nettsiden 
     - MunchMeter
@@ -7,7 +10,7 @@ Målet i dag:
 - fordele oppgaver --> alle skal ha hver sin nettside, men vi kan kun ha en css fil. 
     Nettsidene er som følger: 
         - Hjemmesiden - hovedsiden --> alle nettsidene må linkes til dette. 
-                Bilder som flyter bortover 
+            - Første er bilde av logo også en bilde rullett av andre katine/kafe 
         - About us --> oss 
         - Element --> Realfagskantine 
         - Hangern-kantine 
