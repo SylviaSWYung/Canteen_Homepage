@@ -22,3 +22,10 @@ Målet i dag + information
         - Sit cafe hangarn--> stripa --> Odin 
         - Sit cafe elektro--> el bygget --> Sylvia 
         - Kjelhuset --> en kantine i kjelhuset --> Markus 
+
+Generelt for alle nettsider:
+- Navbar --> Adele
+- Stolper bak bilder --> Adele
+- footer --> Adele
+- style review --> Odin
+- nedtrekkbar liste --> Sylvia
