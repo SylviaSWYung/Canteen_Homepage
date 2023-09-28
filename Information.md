@@ -3,7 +3,6 @@ Målet i dag + information
     - Burguder --> 800020 
     - Gul --> FEE6B5 
     - Gjennomsiktig rød --> DEB1B1 
-
 - Font: 
     - Verdana - midlertidig 
 - Layout 
@@ -22,3 +21,6 @@ Målet i dag + information
         - Sit cafe hangarn--> stripa --> Odin 
         - Sit cafe elektro--> el bygget --> Sylvia 
         - Kjelhuset --> en kantine i kjelhuset --> Markus 
+
+Kode oppgaver: 
+- 
