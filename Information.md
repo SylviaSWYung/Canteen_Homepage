@@ -1,5 +1,6 @@
 Målet i dag + information
 - Farger:
+    - Bakgrunn gul: FDF0D5
     - Burguder --> 800020 
     - Gul --> FEE6B5 
     - Gjennomsiktig rød --> DEB1B1 
