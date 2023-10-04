@@ -29,4 +29,3 @@ Generelt for alle nettsider:
 - footer --> Adele
 - style review --> Odin
 - nedtrekkbar liste --> Sylvia
-
