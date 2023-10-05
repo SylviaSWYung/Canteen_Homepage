@@ -25,6 +25,8 @@ Målet i dag + information
 
 
         - Alle skriver litt om content på hver sin nettside
+        - Minimum requirements - Markus
+        - Plan - Odin
 
 Generelt for alle nettsider:
 - Navbar --> Adele
