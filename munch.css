@@ -83,6 +83,7 @@ header h1{
     position: relative;
     margin: 0;
     object-fit: contain;
+    transition: 1s ease-in-out;
 }
 
 .informasjon{
@@ -100,4 +101,12 @@ header h1{
 
 .informasjon p{
     color: #800020;
+}
+
+footer{
+    background-color: #800020;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
 }
