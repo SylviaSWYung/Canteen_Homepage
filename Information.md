@@ -23,6 +23,9 @@ Målet i dag + information
         - Sit cafe elektro--> el bygget --> Sylvia 
         - Kjelhuset --> en kantine i kjelhuset --> Markus 
 
+
+        - Alle skriver litt om content på hver sin nettside
+
 Generelt for alle nettsider:
 - Navbar --> Adele
 - Stolper bak bilder --> Adele
