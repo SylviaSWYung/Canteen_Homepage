@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="nn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sit Cafe - Hangaren</title>
+
+</head>
+
+// dsadasd
+<style>
+    html, body{
+        background-color: #FDF0D5;
+        padding: 0;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .navbar{
+        background-color: #FDF0D5;
+        position: fixed;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 0 50px grey;
+        top: 0;
+        z-index: 1;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .heleLogo{
+        grid-column: 1;
+        display: grid;
+        grid-template-columns: 5rem auto;
+        column-gap: 0;
+        margin: 0;
+    }
+    
+    #logo{
+        max-width: 3.8rem;
+        margin: 0.5rem auto auto 0.5rem;
+        display: inline;
+        grid-column: 1;
+    }
+    
+    header h1{
+        display: inline;
+        color: #800020;
+        grid-column: 2;
+        text-align: left;
+    }
+    
+    .oversikt{
+        grid-column: 3;
+        display: grid;
+        margin: auto 1rem;
+    }
+    
+    .oversikt a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+    }
+    
+    #kafe{
+        grid-column: 1;
+    }
+    
+    #kantine{
+        grid-column: 2;
+    }
+    
+    #omOss{
+        grid-column: 3;
+    }
+    
+    #kontakt{
+        grid-column: 4;
+    }
+    
+    .slideshow-container{
+        background-color: #800020;
+        margin-top: 5.1rem;
+        text-align: center;
+        height: 25rem;
+        width: 100%;
+        padding: 0; 
+    }
+    
+    .slideshow-container img{
+        width: 50%;
+        height: 25rem;
+        position: relative;
+        margin: 0;
+        object-fit: contain;
+    }
+    
+    .informasjon{
+        margin: 1rem 20rem;
+    }
+    
+    .informasjon h1{
+        font-size: 3rem;
+        font-weight: lighter;
+        text-align: left;
+        padding: 2rem;
+        border-bottom: 1px solid #800020;
+        color: #800020;
+    }
+    
+    .informasjon p{
+        color: #800020;
+    }
+    footer{
+        background-color: #800020;
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 2rem;
+    }
+
+</style>
+<body>
+    <header class="navbar">
+        <div class="heleLogo">
+            <img id="logo" src="img/logo.png" alt="LogoMunchMeter">
+            <h1>MUNCHMETER</h1>
+        </div>
+        <div class="oversikt">
+            <a id="kafe" href="#">Kafé</a>
+            <a id="kantine" href="#">Kantine</a>
+            <a id="omOss" href="#">Om oss</a>
+            <a id="kontakt" href="#">Kontakt</a>
+        </div>
+    </header>
+    <main>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img id="frontLogo" src="img/SiT_Hangaren08.jpg" alt="Hangern">
+            </div>
+            <div class="slide fade">
+                <img src="img/kantine.webp" alt="kantine">
+            </div>
+        </div>
+        <div class="informasjon">
+            <h1>Sit Cafe - Hangaren</h1>
+            <p>Sit Cafe Hangaren er stedet hvor du kan trekke deg tilbake fra byens travle liv og nyte øyeblikkene i ro og komfort. Vår kafé, sentralt plassert i hjertet av byen, har raskt blitt et populært samlingspunkt for lokalbefolkningen og besøkende som søker en smakfull kaffepause eller en deilig matopplevelse.</p>
+        </div>
+    </main>
+    <footer>
+        <div class="omOssFooter">Om oss</div>
+        <div class="kontaktFooter">Kontakt</div>
+        <div class="sosialeMedier">Sosiale medier</div>
+        <div class="meldePa">Meld deg på nyhetsbrev</div>
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+        showSlide(slideIndex);
+
+        function showSlide(index){
+            const slides = document.querySelectorAll('.slide');
+
+            if (index < 0) {
+                slideIndex = slides.length - 1;
+            } else if (index >= slides.length) {
+                slideIndex = 0;
+            }
+
+            slides.forEach((slide) => {
+                slide.style.display = 'none';
+            });
+
+            slides[slideIndex].style.display = 'block';
+
+        }
+
+        function nextSlide(){
+            showSlide(++slideIndex)
+        }
+
+        function navbarOpacity(){
+            const navbar = document.querySelector('.navbar');
+
+            const scrollPosition = window.scrollY;
+            const triggerPosition = 300;
+
+            if (scrollPosition >= triggerPosition) {
+                navbar.style.backgroundColor = 'rgba(253, 240, 213, 0.6)';
+            } else {
+                navbar.style.backgroundColor = 'rgba(253, 240, 213, 1)';
+            }
+        }
+
+        setInterval(nextSlide, 3000);
+        window.addEventListener('scroll', navbarOpacity);
+
+    </script>
+</body>
+</html>
