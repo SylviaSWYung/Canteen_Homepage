@@ -25,6 +25,8 @@ Målet i dag + information
 
 
         - Alle skriver litt om content på hver sin nettside
+        - Minimum requirements - Markus
+        - Plan - Odin
 
 Generelt for alle nettsider:
 - Navbar --> Adele
@@ -32,3 +34,8 @@ Generelt for alle nettsider:
 - footer --> Adele
 - style review --> Odin
 - nedtrekkbar liste --> Sylvia
+
+Deadlines:
+ - html - 19.10.2023
+ - javascript - 10.11.2023
+ - css - 13.11.2023
