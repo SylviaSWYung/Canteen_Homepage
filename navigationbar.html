@@ -17,28 +17,32 @@
             <h1>MUNCHMETER</h1>
         </div>
         <div class="oversikt">
-            <a id="kafe" href="#">Kafé</a>
-            <a id="kantine" href="#">Kantine</a>
+            <!-- <a id="kafe" href="#">Kafé</a> -->
+                <div class="dropdown">                                                  <!--Dropwdown for cafe-->
+                    <button class="dropbtn" id="kafe">Kafé</button>
+                    <div class="dropdown_innhold">
+                        <a href="#">SITO Realfag</a>
+                        <a href="#">SITO Hangarn</a>
+                        <a href="#">SITO Elektro</a>
+                    </div>
+                </div>            
+
+            <!-- <a id="kantine" href="#">Kantine</a> -->
+                <div class="dropdown">                                                  <!--Dropwdown for kantine-->
+                    <button class="dropbtn" id="kantine">Kantine</button>
+                    <div class="dropdown_innhold">
+                        <a href="#">Element</a>
+                        <a href="#">Hangarn</a>
+                        <a href="#">Kjelhuset</a>
+                    </div>
+                </div>
             <a id="omOss" href="#">Om oss</a>
             <a id="kontakt" href="#">Kontakt</a>
         </div>
     </header>
-<div class="dropdown">       <!--Dropwdown for cafe-->
-    <button class="dropbtn">Kafé</button>
-    <div class="dropdown_content">
-        <a href="#">SITO Realfag</a>
-        <a href="#">SITO Hangarn</a>
-        <a href="#">SITO Elektro</a>
-    </div>
-</div>
 
-<div class="dropdown">       <!--Dropwdown for kantine-->
-    <button class="dropbtn">Kantine</button>
-    <div class="dropdown_content">
-        <a href="#">Element</a>
-        <a href="#">Hangarn</a>
-        <a href="#">Kjelhuset</a>
-    </div>
-</div>
+
+
+
 </body>
 </html>
