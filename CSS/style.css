@@ -45,7 +45,13 @@ ul>li{
     text-align: left;
 }
 
-ol img {
+li img {
     width: 90%;
     height: auto;
+    align-items: center;
+}
+
+figcaption {
+    font-weight: normal;
+    text-align: center;
 }
