@@ -37,6 +37,10 @@ ol>li{
     text-align: left;
 }
 
+li > p {
+    font-weight: normal;
+}
+
 ul>li{
     text-align: left;
 }
