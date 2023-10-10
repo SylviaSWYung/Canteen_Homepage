@@ -1,15 +1,122 @@
 <!DOCTYPE html>
-<html lang="nb">
+<html lang="nn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="munch.css">
-    <title>MunchMeter</title>
+    <title>Kjelhuset - Kantine</title>
+    
 </head>
+
+<style>
+    html, body{
+        background-color: #FDF0D5;
+        padding: 0;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .navbar{
+        background-color: #FDF0D5;
+        position: fixed;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 0 50px grey;
+        top: 0;
+        z-index: 1;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .heleLogo{
+        grid-column: 1;
+        display: grid;
+        grid-template-columns: 5rem auto;
+        column-gap: 0;
+        margin: 0;
+    }
+    
+    #logo{
+        max-width: 3.8rem;
+        margin: 0.5rem auto auto 0.5rem;
+        display: inline;
+        grid-column: 1;
+    }
+    
+    header h1{
+        display: inline;
+        color: #800020;
+        grid-column: 2;
+        text-align: left;
+    }
+    
+    .oversikt{
+        grid-column: 3;
+        display: grid;
+        margin: auto 1rem;
+    }
+    
+    .oversikt a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+    }
+    
+    #kafe{
+        grid-column: 1;
+    }
+    
+    #kantine{
+        grid-column: 2;
+    }
+    
+    #omOss{
+        grid-column: 3;
+    }
+    
+    #kontakt{
+        grid-column: 4;
+    }
+    
+    .slideshow-container{
+        background-color: #800020;
+        margin-top: 5.1rem;
+        text-align: center;
+        height: 25rem;
+        width: 100%;
+        padding: 0; 
+    }
+    
+    .slideshow-container img{
+        width: 50%;
+        height: 25rem;
+        position: relative;
+        margin: 0;
+        object-fit: contain;
+    }
+    
+    .informasjon{
+        margin: 1rem 20rem;
+    }
+    
+    .informasjon h1{
+        font-size: 3rem;
+        font-weight: lighter;
+        text-align: left;
+        padding: 2rem;
+        border-bottom: 1px solid #800020;
+        color: #800020;
+    }
+    
+    .informasjon p{
+        color: #800020;
+    }
+
+</style>
 <body>
     <header class="navbar">
         <div class="heleLogo">
-            <img id="logo" src="img/logo_1.png" alt="LogoMunchMeter">
+            <img id="logo" src="img/logo.png" alt="LogoMunchMeter">
             <h1>MUNCHMETER</h1>
         </div>
         <div class="oversikt">
@@ -22,14 +129,14 @@
     <main>
         <div class="slideshow-container">
             <div class="slide fade">
-                <img id="frontLogo" src="img/logobilde_cropped.png" alt="Logo">
+                <img id="frontLogo" src="img/SiT_Hangaren08.jpg" alt="Hangern">
             </div>
             <div class="slide fade">
                 <img src="img/kantine.webp" alt="kantine">
             </div>
         </div>
         <div class="informasjon">
-            <h1>Velkommen!</h1>
+            <h1>Kjelhuset - kantine</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quisquam itaque cupiditate sint id, nesciunt iure eveniet quos tempore delectus distinctio illum impedit eum atque quae enim at cum possimus voluptate odit temporibus autem blanditiis. Dolorum ratione voluptatum repudiandae facilis aliquid qui iusto eaque natus deleniti, provident quibusdam, minus quis atque quisquam dolores modi, voluptas cum. Necessitatibus neque asperiores nisi amet? Minima delectus aut impedit architecto error exercitationem distinctio saepe, quibusdam magni nostrum, enim eveniet asperiores, optio molestiae autem. Minus quia vero quaerat, quae fugiat atque qui deleniti excepturi iusto, cum, culpa illum expedita repellat quibusdam odio cupiditate eligendi facilis. Veniam animi similique cupiditate sequi quam natus error sit quasi, odit vitae ex amet incidunt excepturi optio, aliquid eos ad. Libero corrupti obcaecati tenetur explicabo. Veritatis modi dolore quasi magni explicabo, assumenda non amet enim dolorum. Sint laudantium quod a inventore labore recusandae impedit assumenda doloribus, quidem reprehenderit enim sed maxime debitis numquam maiores tempora, dolores magni quasi aut. Quidem corporis, aspernatur accusantium voluptates nostrum facilis accusamus quia facere assumenda odio cum non ratione debitis, unde rem doloremque in quibusdam aperiam enim temporibus. Ea possimus excepturi cum deserunt voluptates maxime ut sequi quae similique numquam laborum voluptatum harum inventore ab autem atque necessitatibus officia, veritatis aspernatur libero a voluptatibus magni asperiores! Est eligendi beatae dolore exercitationem quasi magnam blanditiis! Quia, accusamus labore laboriosam odit neque doloribus consectetur, debitis quos, nam laudantium veritatis! Veritatis modi minima est distinctio aperiam dolores alias blanditiis dicta iste eligendi? Cupiditate incidunt vitae ea quas sunt? Corrupti facere dolores, repellat distinctio ratione architecto ullam itaque delectus molestias, corporis voluptas veniam aliquid accusamus magni minima atque aspernatur deserunt, laudantium facilis nesciunt vitae obcaecati totam aperiam laborum? Omnis officiis consequatur deleniti. Perferendis quasi sit repudiandae recusandae porro eius illum tempora eum. Esse voluptatem quae excepturi architecto numquam veritatis!
             </p>
@@ -39,11 +146,50 @@
         </div>
     </main>
     <footer>
-        <div class="omOssFooter">Om oss</div>
-        <div class="kontaktFooter">Kontakt</div>
-        <div class="sosialeMedier">Sosiale medier</div>
-        <div class="meldePa">Meld deg på nyhetsbrev</div>
+
     </footer>
-    <script src="munch.js"></script>
+
+    <script>
+        let slideIndex = 0;
+        showSlide(slideIndex);
+
+        function showSlide(index){
+            const slides = document.querySelectorAll('.slide');
+
+            if (index < 0) {
+                slideIndex = slides.length - 1;
+            } else if (index >= slides.length) {
+                slideIndex = 0;
+            }
+
+            slides.forEach((slide) => {
+                slide.style.display = 'none';
+            });
+
+            slides[slideIndex].style.display = 'block';
+
+        }
+
+        function nextSlide(){
+            showSlide(++slideIndex)
+        }
+
+        function navbarOpacity(){
+            const navbar = document.querySelector('.navbar');
+
+            const scrollPosition = window.scrollY;
+            const triggerPosition = 300;
+
+            if (scrollPosition >= triggerPosition) {
+                navbar.style.backgroundColor = 'rgba(253, 240, 213, 0.6)';
+            } else {
+                navbar.style.backgroundColor = 'rgba(253, 240, 213, 1)';
+            }
+        }
+
+        setInterval(nextSlide, 3000);
+        window.addEventListener('scroll', navbarOpacity);
+
+    </script>
 </body>
 </html>

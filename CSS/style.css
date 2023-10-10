@@ -37,6 +37,21 @@ ol>li{
     text-align: left;
 }
 
+li > p {
+    font-weight: normal;
+}
+
 ul>li{
     text-align: left;
+}
+
+li img {
+    width: 90%;
+    height: auto;
+    align-items: center;
+}
+
+figcaption {
+    font-weight: normal;
+    text-align: center;
 }
