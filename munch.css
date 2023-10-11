@@ -99,6 +99,16 @@ header h1{
     color: #800020;
 }
 
+                            /* Kommentar fra Sylvia: ny kode for h2. Burde benyttes på alle??*/
+.informasjon h2{                    
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 1px solid #800020;
+    color: #800020;
+}
+
 .informasjon p{
     color: #800020;
 }
