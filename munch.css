@@ -5,11 +5,12 @@ html, body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* lagt inn auto-fit */
 .navbar{
     background-color: #FDF0D5;
     position: fixed;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, 1fr);
     width: 100%;
     text-align: center;
     box-shadow: 0 0 50px grey;
@@ -126,6 +127,7 @@ footer{
     font-size: 1.2rem;
 }
 
+/* dropdown knappen, gjemt */
 .dropdown_innhold {
     display: none;
     position: absolute;
@@ -145,12 +147,30 @@ footer{
     font-family: inherit;
 }
 
-.dropdown_innhold a:hover {
-    background-color: #FDF0D5;
+/* Når du holder over knappene, vil de få en rød boks samt hvit skrift */
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color: #800020;
+    color: white;
 }
 
+.dropdown_innhold a:hover {
+    background-color: #DEB1B1;
+    color: black;
+}
+
+/* Viser brukeren dropwdown menyen når brukeren tar musa over dropdown */
 .dropdown:hover .dropdown_innhold {
     display: block;
 }
 
-/* Sylvia sin navbar stopper her */
+@media screen and (max-width:700px) {
+    .navbar, .dropdown .dropbtn{
+        display: block;
+        height: 3.8rem;
+        align-items: center;
+    }    
+    .heleLogo{
+        float: right;
+        display: none;
+    }
+}
