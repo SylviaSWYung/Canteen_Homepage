@@ -24,18 +24,26 @@ Målet i dag + information
         - Kjelhuset --> en kantine i kjelhuset --> Markus 
 
 
-        - Alle skriver litt om content på hver sin nettside
-        - Minimum requirements - Markus
-        - Plan - Odin
+Gjøremål til neste møte: 
+- Odin: review med stjerne
+- Helle: anmelde liste m/jenni
+- Markus: informasjon på footer 
+- Adele: Skrive tekst til home page 
+- Jenni: anmelde liste/helle
+- Sylvia: navbar høyde, og hover farge 
 
 Generelt for alle nettsider:
 - Navbar --> Adele
 - Stolper bak bilder --> Adele
 - footer --> Adele
-- style review --> Odin
+- form review med stjerne --> Odin
 - nedtrekkbar liste --> Sylvia
+- programmere en tilfeldig annmelde liste, hvor man kan trykke/at den går automatisk til ulike review som "folk" har skrevet 
+    en liten boks, med navn og reveiew - Jenni/Helle 
 
 Deadlines:
  - html - 19.10.2023
  - javascript - 10.11.2023
  - css - 13.11.2023
+
+ hei
