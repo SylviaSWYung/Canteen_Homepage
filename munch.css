@@ -168,6 +168,9 @@ footer{
         display: block;
         height: 3.8rem;
         align-items: center;
+    }
+    .navbar a{
+        margin: auto;
     }    
     .heleLogo{
         float: right;
