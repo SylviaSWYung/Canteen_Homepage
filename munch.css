@@ -89,7 +89,7 @@ header h1{
 }   
 
 .slideshow-container img{
-    width: 50%;
+    width: 100%;    /*endret bildet til 100% with*/
     height: 25rem;
     position: relative;
     margin: 0;

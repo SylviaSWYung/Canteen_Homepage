@@ -24,9 +24,13 @@ Målet i dag + information
         - Kjelhuset --> en kantine i kjelhuset --> Markus 
 
 
-        - Alle skriver litt om content på hver sin nettside
-        - Minimum requirements - Markus
-        - Plan - Odin
+Gjøremål til neste møte: 
+- Odin: review med stjerne
+- Helle: anmelde liste m/jenni
+- Markus: informasjon på footer 
+- Adele: Skrive tekst til home page 
+- Jenni: anmelde liste/helle
+- Sylvia: navbar høyde, og hover farge 
 
 Generelt for alle nettsider:
 - Navbar --> Adele
