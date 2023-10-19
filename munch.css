@@ -7,6 +7,31 @@ html, body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@media screen and (min-width: 1200px) {
+    .informasjon{
+        margin: 1rem 20rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .informasjon {
+        margin: 1rem 10rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .navbar, .dropdown .dropbtn{
+        display: block;
+        height: 3.8rem;
+        align-items: center;
+    }
+    .heleLogo{
+        float: right;
+        display: none;
+    }
+}
+
+
 body{
     min-height: 100%;
     display: grid;
@@ -97,10 +122,6 @@ header h1{
     transition: 1s ease-in-out;
 }
 
-.informasjon{
-    margin: 1rem 20rem;
-}
-
 .informasjon h1{
     font-size: 3rem;
     font-weight: lighter;
@@ -171,16 +192,4 @@ footer{
 /* Viser brukeren dropwdown menyen når brukeren tar musa over dropdown */
 .dropdown:hover .dropdown_innhold {
     display: block;
-}
-
-@media screen and (max-width:700px) {
-    .navbar, .dropdown .dropbtn{
-        display: block;
-        height: 3.8rem;
-        align-items: center;
-    }
-    .heleLogo{
-        float: right;
-        display: none;
-    }
 }
