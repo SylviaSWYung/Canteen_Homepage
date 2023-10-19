@@ -21,19 +21,6 @@ html, body{
     }
 }
 
-@media screen and (max-width:700px) {
-    .navbar, .dropdown .dropbtn{
-        display: block;
-        height: 3.8rem;
-        align-items: center;
-    }
-    .heleLogo{
-        float: right;
-        display: none;
-    }
-}
-
-
 body{
     min-height: 100%;
     display: grid;
@@ -194,4 +181,28 @@ footer{
 /* Viser brukeren dropwdown menyen når brukeren tar musa over dropdown */
 .dropdown:hover .dropdown_innhold {
     display: block;
+}
+
+@media screen and (max-width:700px) {
+    .navbar, .dropdown .dropbtn{
+        display: block;
+        height: 3.8rem;
+        align-items: center;
+    }
+    .heleLogo{
+        float: right;
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .navbar, .dropdown .dropbtn{
+        display: block;
+        height: 3.8rem;
+        align-items: center;
+    }
+    .heleLogo{
+        float: right;
+        display: none;
+    }
 }
