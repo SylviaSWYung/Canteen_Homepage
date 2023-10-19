@@ -60,6 +60,7 @@ header h1{
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
+    margin: auto;
 }
 
 #kafe{
@@ -178,10 +179,6 @@ footer{
         height: 3.8rem;
         align-items: center;
     }
-    /* adele skrev under */
-    .navbar a{
-        margin: auto;
-    }    
     .heleLogo{
         float: right;
         display: none;
