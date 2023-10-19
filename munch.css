@@ -148,7 +148,7 @@ footer{
 }
 
 /* Når du holder over knappene, vil de få en rød boks samt hvit skrift */
-.navbar a:hover, .dropdown:hover .dropbtn{
+#omOss:hover, #kontakt:hover, .dropdown:hover .dropbtn{
     background-color: #800020;
     color: white;
 }
