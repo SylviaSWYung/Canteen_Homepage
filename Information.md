@@ -32,8 +32,10 @@ Generelt for alle nettsider:
 - Navbar --> Adele
 - Stolper bak bilder --> Adele
 - footer --> Adele
-- style review --> Odin
+- form review med stjerne --> Odin
 - nedtrekkbar liste --> Sylvia
+- programmere en tilfeldig annmelde liste, hvor man kan trykke/at den går automatisk til ulike review som "folk" har skrevet 
+    en liten boks, med navn og reveiew - Jenni/Helle 
 
 Deadlines:
  - html - 19.10.2023
