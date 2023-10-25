@@ -37,6 +37,7 @@ class Header extends HTMLElement {
                 color: #800020;
                 grid-column: 2;
                 text-align: left;
+                font-size: 1.7rem;
             }
 
             .oversikt{
@@ -68,6 +69,37 @@ class Header extends HTMLElement {
                 grid-column: 4;
             }
             
+            /* når screen size er større enn 1200px så endrer margin seg */
+            @media screen and (min-width: 1200px) {
+                .informasjon{
+                    margin: 1rem 20rem;
+                }
+            }
+
+            /* når screen size er mindre enn 1200px så endrer margin seg */
+            @media screen and (max-width: 1200px) {
+                .informasjon {
+                    margin: 1rem 10rem;
+                }
+            }
+
+            @media screen and (max-width:700px) {
+                .navbar, .dropdown .dropbtn{
+                    display: block;
+                    height: 5.1rem;
+                    align-items: center;
+                }
+                .heleLogo{
+                    float: right;
+                    display: none;
+                }
+                .informasjon{
+                    margin: 1rem 1.5rem;            /* endret margin og font size når skjerm er under 700 px */
+                }
+                .informasjon h1{
+                    font-size: 2rem;
+                }
+            }
         </style>
         <nav class="navbar">
             <div class="heleLogo">
