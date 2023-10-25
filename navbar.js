@@ -9,14 +9,67 @@ class Header extends HTMLElement {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, 1fr);
                 width: 100%;
+                height: 5.1rem;
                 text-align: center;
                 box-shadow: 0 0 50px grey;
                 top: 0;
                 z-index: 1;
                 transition: 0.5s ease-in-out;
             }
+
+            .heleLogo{
+                grid-column: 1;
+                display: grid;
+                grid-template-columns: 5rem auto;
+                column-gap: 0;
+                margin: 0;
+            }
+            
+            #logo{
+                max-width: 3.8rem;
+                margin: 0.5rem auto auto 0.5rem;
+                display: inline;
+                grid-column: 1;
+            }
+
+            .heleLogo h1{
+                display: inline;
+                color: #800020;
+                grid-column: 2;
+                text-align: left;
+            }
+
+            .oversikt{
+                grid-column: 3;
+                display: grid;
+                margin: auto 1rem;
+            }
+            
+            .oversikt a{
+                text-decoration: none;
+                color: black;
+                font-size: 1.2rem;
+                margin: auto;
+            }
+            
+            #kafe{
+                grid-column: 1;
+            }
+            
+            #kantine{
+                grid-column: 2;
+            }
+            
+            #omOss{
+                grid-column: 3;
+            }
+            
+            #kontakt{
+                grid-column: 4;
+            }
+            
         </style>
-        <nav>
+        <nav class="navbar">
             <div class="heleLogo">
                 <img id="logo" src="img/logo_1.png" alt="LogoMunchMeter">
                 <h1><a href="#" style="color: inherit; text-decoration: none;">MUNCHMETER</a></h1>
@@ -47,8 +100,17 @@ class Header extends HTMLElement {
 
     }
 
-    connectedCallBack() {
-
+    navbarOpacity(){
+        const navbar = document.querySelector('.navbar');
+    
+        const scrollPosition = window.scrollY;
+        const triggerPosition = 300;
+    
+        if (scrollPosition >= triggerPosition) {
+            navbar.style.backgroundColor = 'rgba(253, 240, 213, 0.95)';
+        } else {
+            navbar.style.backgroundColor = 'rgba(253, 240, 213, 1)';
+        }
     }
 }
 
