@@ -79,6 +79,10 @@ header h1{
     grid-column: 4;
 }
 
+main {
+    margin-bottom: 3rem;
+}
+
 .slideshow-container{
     background-color: #800020;
     margin-top: 5.1rem;
