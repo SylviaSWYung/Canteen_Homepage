@@ -56,31 +56,89 @@ class Header extends HTMLElement {
             
             #kafe{
                 grid-column: 1;
+                width: 100%;
             }
             
             #kantine{
                 grid-column: 2;
+                width: 100%;
             }
             
             #omOss{
                 grid-column: 3;
+                width: 100%;
             }
             
             #kontakt{
                 grid-column: 4;
+                width: 100%;
             }
 
+            .dropdown {
+                float: right;
+                overflow: hidden;
+            }
+            
+            .dropdown .dropbtn {
+                border: none;
+                color: black;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+                font-size: 1.2rem;
+                
+            }
+            
+            /* dropdown knappen, gjemt */
+            .dropdown_innhold {
+                display: none;
+                position: absolute;
+                background-color: #FDF0D5;
+                min-width: 160px;
+                z-index: 1;
+            }
+            
+            .dropdown_innhold a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                font-size: 1rem;
+                font-family: inherit;
+            }
+            
+            /* Når du holder over knappene, vil de få en rød boks samt hvit skrift */
+            #omOss:hover, #kontakt:hover, .dropdown:hover .dropbtn{
+                background-color: #800020;
+                color: white;
+            }
+            
+            .dropdown_innhold a:hover {
+                background-color: #DEB1B1;
+                color: black;
+            }
+            
+            /* Viser brukeren dropwdown menyen når brukeren tar musa over dropdown */
+            .dropdown:hover .dropdown_innhold {
+                display: block;
+            }
+            
             @media screen and (max-width:700px) {
-                .navbar, .dropdown .dropbtn{
+                .navbar, .dropdown .dropbtn, #omOss, #kontakt{
                     display: block;
-                    height: 5.1rem;
+                    height: 5rem;
                     align-items: center;
                 }
-                .heleLogo{
-                    float: right;
-                    display: none;
+            
+                #omOss, #kontakt {
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
                 }
             }
+            
         </style>
         <nav class="navbar">
             <div class="heleLogo">
