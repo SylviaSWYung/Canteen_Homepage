@@ -56,18 +56,22 @@ class Header extends HTMLElement {
             
             #kafe{
                 grid-column: 1;
+                width: 100%;
             }
             
             #kantine{
                 grid-column: 2;
+                width: 100%;
             }
             
             #omOss{
                 grid-column: 3;
+                width: 100%;
             }
             
             #kontakt{
                 grid-column: 4;
+                width: 100%;
             }
 
             .dropdown {
@@ -82,6 +86,7 @@ class Header extends HTMLElement {
                 font-family: inherit;
                 margin: 0;
                 font-size: 1.2rem;
+                
             }
             
             /* dropdown knappen, gjemt */
@@ -119,18 +124,21 @@ class Header extends HTMLElement {
             .dropdown:hover .dropdown_innhold {
                 display: block;
             }
-
+            
             @media screen and (max-width:700px) {
-                .navbar, .dropdown .dropbtn{
+                .navbar, .dropdown .dropbtn, #omOss, #kontakt{
                     display: block;
-                    height: 5.1rem;
+                    height: 5rem;
                     align-items: center;
                 }
-                .heleLogo{
-                    float: right;
-                    display: none;
+            
+                #omOss, #kontakt {
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
                 }
             }
+            
         </style>
         <nav class="navbar">
             <div class="heleLogo">
