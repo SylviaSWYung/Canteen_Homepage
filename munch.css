@@ -77,15 +77,13 @@ header h1{
 
 #omOss{
     grid-column: 3;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
 }
 
 #kontakt{
     grid-column: 4;
+}
+
+#omOss, #kontakt{
     height: 100%;
     display: flex;
     justify-content: center;
@@ -148,7 +146,7 @@ footer{
     font-family: inherit;
     margin: 0;
     font-size: 1.2rem;
-    height: 100%;
+    height: 100%;          /*Høyden her gjør at selve knappen til kafe og kantine blir i midten */
 }
 
 /* dropdown knappen, gjemt */
@@ -177,6 +175,7 @@ footer{
     color: white;
 }
 
+/* hover over de ulike valg mulighetene for kafe og kantine gir deg bakgrunnsfargen + svart farge */
 .dropdown_innhold a:hover {
     background-color: #DEB1B1;
     color: black;
@@ -206,12 +205,8 @@ footer{
         display: block;
         height: 5rem;
         align-items: center;
-    }
-
-    #omOss, #kontakt {
-        justify-content: center;
         display: flex;
-        align-items: center;
+        justify-content: center;
     }
 
     .heleLogo{
@@ -225,6 +220,9 @@ footer{
         font-size: 2rem;
     }
 }
+
+
+
 
 /* star-review */
 
