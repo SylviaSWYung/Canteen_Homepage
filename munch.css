@@ -14,9 +14,6 @@ body{
     grid-template-columns: 100%;
 }
 
-/* lagt inn auto-fit */
-
-
 .slideshow-container{
     background-color: #800020;
     margin-top: 5.1rem;
