@@ -76,6 +76,7 @@ header h1{
 #omOss{
     grid-column: 3;
     width: 100%;
+
 }
 
 #kontakt{
@@ -192,6 +193,12 @@ footer{
     .navbar, .dropdown .dropbtn, #omOss, #kontakt{
         display: block;
         height: 5rem;
+        align-items: center;
+    }
+
+    #omOss, #kontakt {
+        justify-content: center;
+        display: flex;
         align-items: center;
     }
 
