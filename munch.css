@@ -73,10 +73,12 @@ header h1{
 
 #omOss{
     grid-column: 3;
+    margin: 0;
 }
 
 #kontakt{
     grid-column: 4;
+    margin: 0;
 }
 
 .slideshow-container{
@@ -131,6 +133,7 @@ footer{
     font-family: inherit;
     margin: 0;
     font-size: 1.2rem;
+    
 }
 
 /* dropdown knappen, gjemt */
@@ -184,10 +187,11 @@ footer{
 }
 
 @media screen and (max-width:700px) {
-    .navbar, .dropdown .dropbtn{
+    .navbar, .dropdown .dropbtn, #omOss, #kontakt{
         display: block;
         height: 3.8rem;
         align-items: center;
+        border: none;
     }
     .heleLogo{
         float: right;
@@ -200,4 +204,3 @@ footer{
         font-size: 2rem;
     }
 }
-
