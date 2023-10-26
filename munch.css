@@ -186,10 +186,9 @@ footer{
 @media screen and (max-width:700px) {
     .navbar, .dropdown .dropbtn{
         display: block;
-        height: 5rem;
+        height: 3.8rem;
         align-items: center;
     }
-
     .heleLogo{
         float: right;
         display: none;
@@ -217,7 +216,8 @@ footer{
     flex-direction: column;
 }
 
-.container .etter {
+.container .etter
+ {
     display: none;
 }
 
@@ -230,7 +230,11 @@ footer{
     position: absolute;
     right: 10px;
     top: 5px;
+    cursor: pointer;
+}
 
+.container .edit:hover {
+    color: gray;
 }
 
 .container .star-widget input{
