@@ -22,18 +22,7 @@ function nextSlide(){
     showSlide(++slideIndex)
 }
 
-function navbarOpacity(){
-    const navbar = document.querySelector('.navbar');
 
-    const scrollPosition = window.scrollY;
-    const triggerPosition = 300;
-
-    if (scrollPosition >= triggerPosition) {
-        navbar.style.backgroundColor = 'rgba(253, 240, 213, 0.95)';
-    } else {
-        navbar.style.backgroundColor = 'rgba(253, 240, 213, 1)';
-    }
-}
 
 setInterval(nextSlide, 3000);
 window.addEventListener('scroll', navbarOpacity);
