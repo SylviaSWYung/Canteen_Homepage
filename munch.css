@@ -15,69 +15,7 @@ body{
 }
 
 /* lagt inn auto-fit */
-.navbar{
-    background-color: #FDF0D5;
-    position: fixed;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 1fr);
-    width: 100%;
-    text-align: center;
-    box-shadow: 0 0 50px grey;
-    top: 0;
-    z-index: 1;
-    transition: 0.5s ease-in-out;
-}
 
-.heleLogo{
-    grid-column: 1;
-    display: grid;
-    grid-template-columns: 5rem auto;
-    column-gap: 0;
-    margin: 0;
-}
-
-#logo{
-    max-width: 3.8rem;
-    margin: 0.5rem auto auto 0.5rem;
-    display: inline;
-    grid-column: 1;
-}
-
-header h1{
-    display: inline;
-    color: #800020;
-    grid-column: 2;
-    text-align: left;
-}
-
-.oversikt{
-    grid-column: 3;
-    display: grid;
-    margin: auto 1rem;
-}
-
-.oversikt a{
-    text-decoration: none;
-    color: black;
-    font-size: 1.2rem;
-    margin: auto;
-}
-
-#kafe{
-    grid-column: 1;
-}
-
-#kantine{
-    grid-column: 2;
-}
-
-#omOss{
-    grid-column: 3;
-}
-
-#kontakt{
-    grid-column: 4;
-}
 
 .slideshow-container{
     background-color: #800020;
@@ -184,15 +122,6 @@ footer{
 }
 
 @media screen and (max-width:700px) {
-    .navbar, .dropdown .dropbtn{
-        display: block;
-        height: 3.8rem;
-        align-items: center;
-    }
-    .heleLogo{
-        float: right;
-        display: none;
-    }
     .informasjon{
         margin: 1rem 1.5rem;            /* endret margin og font size når skjerm er under 700 px */
     }
