@@ -6,6 +6,7 @@ class Header extends HTMLElement {
             .navbar{
                 background-color: #FDF0D5;
                 position: fixed;
+                
                 display: grid;
                 grid-template-columns: repeat(auto-fit, 1fr);
                 width: 100%;
@@ -68,20 +69,6 @@ class Header extends HTMLElement {
             #kontakt{
                 grid-column: 4;
             }
-            
-            /* når screen size er større enn 1200px så endrer margin seg */
-            @media screen and (min-width: 1200px) {
-                .informasjon{
-                    margin: 1rem 20rem;
-                }
-            }
-
-            /* når screen size er mindre enn 1200px så endrer margin seg */
-            @media screen and (max-width: 1200px) {
-                .informasjon {
-                    margin: 1rem 10rem;
-                }
-            }
 
             @media screen and (max-width:700px) {
                 .navbar, .dropdown .dropbtn{
@@ -92,12 +79,6 @@ class Header extends HTMLElement {
                 .heleLogo{
                     float: right;
                     display: none;
-                }
-                .informasjon{
-                    margin: 1rem 1.5rem;            /* endret margin og font size når skjerm er under 700 px */
-                }
-                .informasjon h1{
-                    font-size: 2rem;
                 }
             }
         </style>

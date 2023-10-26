@@ -107,5 +107,26 @@ footer{
     display: block;
 }
 
+/* når screen size er større enn 1200px så endrer margin seg */
+@media screen and (min-width: 1200px) {
+    .informasjon{
+        margin: 1rem 20rem;
+    }
+}
 
+/* når screen size er mindre enn 1200px så endrer margin seg */
+@media screen and (max-width: 1200px) {
+    .informasjon {
+        margin: 1rem 10rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .informasjon{
+        margin: 1rem 1.5rem;            /* endret margin og font size når skjerm er under 700 px */
+    }
+    .informasjon h1{
+        font-size: 2rem;
+    }
+}
 
