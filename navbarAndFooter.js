@@ -104,7 +104,7 @@ class Header extends HTMLElement {
                                 <a href="kjelhuset.html">Kjelhuset</a>
                             </div>
                         </div>
-                    <a id="omOss" href="#">Om oss</a>
+                    <a id="omOss" href="omoss.html">Om oss</a>
                     <a id="kontakt" href="#">Kontakt</a>
             </div>
         
