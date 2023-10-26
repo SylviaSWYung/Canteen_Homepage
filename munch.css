@@ -65,20 +65,22 @@ header h1{
 
 #kafe{
     grid-column: 1;
+    width: 100%;
 }
 
 #kantine{
     grid-column: 2;
+    width: 100%;
 }
 
 #omOss{
     grid-column: 3;
-    margin: 0;
+    width: 100%;
 }
 
 #kontakt{
     grid-column: 4;
-    margin: 0;
+    width: 100%;
 }
 
 .slideshow-container{
@@ -191,7 +193,6 @@ footer{
         display: block;
         height: 5rem;
         align-items: center;
-        border: none;
     }
 
     .heleLogo{
