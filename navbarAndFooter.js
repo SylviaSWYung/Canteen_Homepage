@@ -182,4 +182,23 @@ class Header extends HTMLElement {
     }
 }
 
+class Footer extends HTMLElement {
+    constructor() {
+        super(); `
+        this.innerHTML = 
+        <style>
+        
+        </style>
+        <nav class="footer">
+            <footer>
+            <div class="omOssFooter">Om oss</div>
+            <div class="kontaktFooter">Kontakt</div>
+            <div class="sosialeMedier">Sosiale medier</div>
+            <div class="meldePa">Meld deg på nyhetsbrev</div>
+            </footer>
+        </nav>
+        `
+    }
+}
+
 customElements.define('main-header', Header);
