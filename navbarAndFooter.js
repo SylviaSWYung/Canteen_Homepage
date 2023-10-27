@@ -97,10 +97,8 @@ class Header extends HTMLElement {
                 margin: 0;
                 font-size: 1.2rem;
                 height: 100%;
-                
             }
             
-            /* dropdown knappen, gjemt */
             .dropdown_innhold {
                 display: none;
                 position: absolute;
@@ -120,7 +118,6 @@ class Header extends HTMLElement {
                 font-family: inherit;
             }
             
-            /* Når du holder over knappene, vil de få en rød boks samt hvit skrift */
             #omOss:hover, #kontakt:hover, .dropdown:hover .dropbtn{
                 background-color: #800020;
                 color: white;
@@ -131,22 +128,21 @@ class Header extends HTMLElement {
                 color: black;
             }
             
-            /* Viser brukeren dropwdown menyen når brukeren tar musa over dropdown */
             .dropdown:hover .dropdown_innhold {
                 display: block;
             }
             
             @media screen and (max-width:700px) {
-                .navbar, .dropdown .dropbtn{
-                    display: block;
+                .navbar, .dropdown .dropbtn, #omOss, #kontakt{
+                    display: block flex;
                     height: 5.1rem;
                     align-items: center;
-                }
-            
-                #omOss, #kontakt {
                     justify-content: center;
-                    display: flex;
-                    align-items: center;
+                }
+
+                .heleLogo{
+                    float: right;
+                    display: none;
                 }
             }
             
@@ -157,7 +153,7 @@ class Header extends HTMLElement {
                 <h1><a href="homepage.html" style="color: inherit; text-decoration: none;">MUNCHMETER</a></h1>
                 </div>
                 <div class="oversikt">
-                        <div class="dropdown">                                                  <!--Dropwdown for cafe-->
+                        <div class="dropdown">                                                  
                             <button class="dropbtn" id="kafe">Kafé</button>
                             <div class="dropdown_innhold">
                                 <a href="sitorealfag.html">SITO Realfag</a>
@@ -165,7 +161,7 @@ class Header extends HTMLElement {
                                 <a href="elbygget.html">SITO Elektro</a>
                             </div>
                         </div>            
-                        <div class="dropdown">                                                  <!--Dropwdown for kantine-->
+                        <div class="dropdown">                                                  
                             <button class="dropbtn" id="kantine">Kantine</button>
                             <div class="dropdown_innhold">
                                 <a href="element.html">Element</a>
@@ -182,23 +178,30 @@ class Header extends HTMLElement {
     }
 }
 
-class Footer extends HTMLElement {
+class Foot extends HTMLElement {
     constructor() {
-        super(); `
-        this.innerHTML = 
+        super(); 
+        this.innerHTML = `
         <style>
-        
+            footer{
+                background-color: #800020;
+                color: white;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                padding: 2rem;
+            }
         </style>
-        <nav class="footer">
-            <footer>
+       
+        <footer>
             <div class="omOssFooter">Om oss</div>
             <div class="kontaktFooter">Kontakt</div>
             <div class="sosialeMedier">Sosiale medier</div>
             <div class="meldePa">Meld deg på nyhetsbrev</div>
-            </footer>
-        </nav>
+        </footer>
+        
         `
     }
 }
 
+customElements.define('main-footer', Foot);
 customElements.define('main-header', Header);
