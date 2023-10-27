@@ -99,7 +99,8 @@ footer{
 }
 
 .dropdown_innhold a:hover {
-    background-color: #FDF0D5;
+    background-color: #deb1b1;
+    color: black;
 }
 
 .dropdown:hover .dropdown_innhold {
@@ -121,10 +122,12 @@ footer{
 }
 
 @media screen and (max-width:700px) {
-    .navbar, .dropdown .dropbtn{
+    .navbar, .dropdown .dropbtn, #omOss, #kontakt{
         display: block;
-        height: 3.8rem;
+        height: 5.1rem;
         align-items: center;
+        display: flex;
+        justify-content: center;
     }
     .heleLogo{
         float: right;

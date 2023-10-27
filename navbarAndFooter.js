@@ -6,7 +6,6 @@ class Header extends HTMLElement {
             .navbar{
                 background-color: #FDF0D5;
                 position: fixed;
-                
                 display: grid;
                 grid-template-columns: repeat(auto-fit, 1fr);
                 width: 100%;
@@ -45,6 +44,8 @@ class Header extends HTMLElement {
                 grid-column: 3;
                 display: grid;
                 margin: auto 1rem;
+                height: 100%;
+                grid-template-columns: repeat(4, 1fr);
             }
             
             .oversikt a{
@@ -66,17 +67,26 @@ class Header extends HTMLElement {
             
             #omOss{
                 grid-column: 3;
-                width: 100%;
             }
             
             #kontakt{
                 grid-column: 4;
+            }
+
+            #omOss, #kontakt{
+                height: 100%; 
+                display: flex; 
+                justify-content: center; 
+                align-items: center; 
                 width: 100%;
             }
 
             .dropdown {
                 float: right;
                 overflow: hidden;
+                margin: auto; 
+                width: 100%; 
+                height: 100%; 
             }
             
             .dropdown .dropbtn {
@@ -86,6 +96,7 @@ class Header extends HTMLElement {
                 font-family: inherit;
                 margin: 0;
                 font-size: 1.2rem;
+                height: 100%;
                 
             }
             
@@ -126,9 +137,9 @@ class Header extends HTMLElement {
             }
             
             @media screen and (max-width:700px) {
-                .navbar, .dropdown .dropbtn, #omOss, #kontakt{
+                .navbar, .dropdown .dropbtn{
                     display: block;
-                    height: 5rem;
+                    height: 5.1rem;
                     align-items: center;
                 }
             
