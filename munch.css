@@ -56,6 +56,12 @@ body{
     line-height: 200%;
 }
 
+/* Holder på å gjøre noe men ga opp lol - S */
+iframe {
+    position: relative;
+    display: grid;
+}
+
 /* når screen size er større enn 1200px så endrer margin seg */
 @media screen and (min-width: 1200px) {
     .informasjon{
