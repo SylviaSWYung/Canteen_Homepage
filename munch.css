@@ -59,13 +59,15 @@ h2{
     text-align: center;
     padding: 2rem;
     border-bottom: 1px solid #800020;
+    margin: auto 4rem;
     color: #800020;
 }
 
 .informasjon p{
     grid-row: 3;
-    color: #800020;
+    color: black;
     line-height: 200%;
+    font-size: 15px;
 }
 
 /* Holder på å gjøre noe men ga opp lol - S */
