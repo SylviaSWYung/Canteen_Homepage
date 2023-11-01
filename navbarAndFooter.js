@@ -190,6 +190,14 @@ class Foot extends HTMLElement {
                 grid-template-columns: repeat(4, 1fr);
                 padding: 2rem;
             }
+
+            @media screen and (max-width:700px) {
+                footer{
+                    display: grid;
+                    padding: auto;
+                }
+            }
+
         </style>
        
         <footer>
