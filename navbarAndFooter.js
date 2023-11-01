@@ -6,7 +6,6 @@ class Header extends HTMLElement {
             .navbar{
                 background-color: #FDF0D5;
                 position: fixed;
-                
                 display: grid;
                 grid-template-columns: repeat(auto-fit, 1fr);
                 width: 100%;
@@ -45,6 +44,8 @@ class Header extends HTMLElement {
                 grid-column: 3;
                 display: grid;
                 margin: auto 1rem;
+                height: 100%;
+                grid-template-columns: repeat(4, 1fr);
             }
             
             .oversikt a{
@@ -56,10 +57,12 @@ class Header extends HTMLElement {
             
             #kafe{
                 grid-column: 1;
+                width: 100%;
             }
             
             #kantine{
                 grid-column: 2;
+                width: 100%;
             }
             
             #omOss{
@@ -70,48 +73,135 @@ class Header extends HTMLElement {
                 grid-column: 4;
             }
 
+            #omOss, #kontakt{
+                height: 100%; 
+                display: flex; 
+                justify-content: center; 
+                align-items: center; 
+                width: 100%;
+            }
+
+            .dropdown {
+                float: right;
+                overflow: hidden;
+                margin: auto; 
+                width: 100%; 
+                height: 100%; 
+            }
+            
+            .dropdown .dropbtn {
+                border: none;
+                color: black;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+                font-size: 1.2rem;
+                height: 100%;
+            }
+            
+            .dropdown_innhold {
+                display: none;
+                position: absolute;
+                background-color: #FDF0D5;
+                min-width: 160px;
+                z-index: 1;
+            }
+            
+            .dropdown_innhold a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                font-size: 1rem;
+                font-family: inherit;
+            }
+            
+            #omOss:hover, #kontakt:hover, .dropdown:hover .dropbtn{
+                background-color: #800020;
+                color: white;
+            }
+            
+            .dropdown_innhold a:hover {
+                background-color: #DEB1B1;
+                color: black;
+            }
+            
+            .dropdown:hover .dropdown_innhold {
+                display: block;
+            }
+            
             @media screen and (max-width:700px) {
-                .navbar, .dropdown .dropbtn{
-                    display: block;
+                .navbar, .dropdown .dropbtn, #omOss, #kontakt{
+                    display: block flex;
                     height: 5.1rem;
                     align-items: center;
+                    justify-content: center;
                 }
+
                 .heleLogo{
                     float: right;
                     display: none;
                 }
             }
+            
         </style>
         <nav class="navbar">
             <div class="heleLogo">
                 <img id="logo" src="img/logo_1.png" alt="LogoMunchMeter">
-                <h1><a href="#" style="color: inherit; text-decoration: none;">MUNCHMETER</a></h1>
+                <h1><a href="homepage.html" style="color: inherit; text-decoration: none;">MUNCHMETER</a></h1>
                 </div>
                 <div class="oversikt">
-                        <div class="dropdown">                                                  <!--Dropwdown for cafe-->
+                        <div class="dropdown">                                                  
                             <button class="dropbtn" id="kafe">Kafé</button>
                             <div class="dropdown_innhold">
-                                <a href="#">SITO Realfag</a>
+                                <a href="sitorealfag.html">SITO Realfag</a>
                                 <a href="#">SITO Hangarn</a>
-                                <a href="#">SITO Elektro</a>
+                                <a href="elbygget.html">SITO Elektro</a>
                             </div>
                         </div>            
-                        <div class="dropdown">                                                  <!--Dropwdown for kantine-->
+                        <div class="dropdown">                                                  
                             <button class="dropbtn" id="kantine">Kantine</button>
                             <div class="dropdown_innhold">
-                                <a href="#">Element</a>
-                                <a href="#">Hangarn</a>
-                                <a href="#">Kjelhuset</a>
+                                <a href="element.html">Element</a>
+                                <a href="hangarn.html">Hangarn</a>
+                                <a href="kjelhuset.html">Kjelhuset</a>
                             </div>
                         </div>
-                    <a id="omOss" href="#">Om oss</a>
+                    <a id="omOss" href="omoss.html">Om oss</a>
                     <a id="kontakt" href="#">Kontakt</a>
             </div>
-        
         </nav>
         `
 
     }
 }
 
+class Foot extends HTMLElement {
+    constructor() {
+        super(); 
+        this.innerHTML = `
+        <style>
+            footer{
+                background-color: #800020;
+                color: white;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                padding: 2rem;
+            }
+        </style>
+       
+        <footer>
+            <div class="omOssFooter">Om oss</div>
+            <div class="kontaktFooter">Kontakt</div>
+            <div class="sosialeMedier">Sosiale medier</div>
+            <div class="meldePa">Meld deg på nyhetsbrev</div>
+        </footer>
+        
+        `
+    }
+}
+
+customElements.define('main-footer', Foot);
 customElements.define('main-header', Header);
