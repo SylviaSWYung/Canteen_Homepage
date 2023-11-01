@@ -1,7 +1,37 @@
+class ReviewBox extends HTMLElement {
+    constructor() {
+        super();
+        this.innerHTML = `
+        <style>
+            #box-review {
+                background-color: pink;
+                color: white;
+                width: 400px;
+                height: 400px;
+                margin-right: 150px;
+                margin-bottom: 20px;
+                text-align: center;
+                float: right;
+            }
+        </style>
+
+        <div id="box-review">
+            <h2>reviews</h2>
+            <p>Dette er en review</p>
+            <div id="review-1">
+            </div>
+        </div>
+
+    `
+    }
+    
+}
+
 var reviews = [
-    "Thank you Anne for fitting me in yesterday when you realised I was desperate to get the house cleaned before the blinds and curtains were fitted. Marie and Michaela did a great job, leaving it sparkling clean. I will certainly recommend you to anyone who needs a cleaner. That you are so approachable, helpful and friendly is a bonus. - <strong>Rosemary OBoyle</strong>",
-    "Great job on all the awkward hate to do Jobs! Came home from my holidays and my house was sparkling, highly recommended!! - <strong>Lynne Gardiner</strong>",
-    "Domestic Angels are angels to me, just left lovely Kelly cleaning my house in preparation for mums arrival, while I chill at hairdressers, thank you to Anne & her team, can\'t recommend them enough - <strong>Julie Magee</strong>",
+    "Ben:Sykt gode kanelboller. 4/5",
+    "Trine:Iskaffen til den prinsen!!! Elsker det. 5/5",
+    "Berit:Perfekt sted å sitte når man venter på neste forlesning! Veldig god te. 5/5",
+    "Karl:Litt mye støy, men ellers fint! 3/5",
 ]
 
 var max = reviews.length;
@@ -19,3 +49,5 @@ function randomJS() {
     document.getElementById("review-2").innerHTML = reviews[1];
     document.getElementById("review-3").innerHTML = reviews[2];
 }
+
+customElements.define('review-box', ReviewBox);
