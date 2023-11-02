@@ -157,7 +157,7 @@ class Header extends HTMLElement {
                             <button class="dropbtn" id="kafe">Kafé</button>
                             <div class="dropdown_innhold">
                                 <a href="sitorealfag.html">SITO Realfag</a>
-                                <a href="#">SITO Hangarn</a>
+                                <a href="cafehangarn.html">SITO Hangarn</a>
                                 <a href="elbygget.html">SITO Elektro</a>
                             </div>
                         </div>            
@@ -190,14 +190,63 @@ class Foot extends HTMLElement {
                 grid-template-columns: repeat(4, 1fr);
                 padding: 2rem;
             }
+            .omOssFooter a{
+                    color: white;
+                    background-color: transparent;
+                    text-decoration: none;
+            }
+            .omOssFooter a:hover {
+                color: white;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            .sosialeMedier a {
+                color: white;
+                text-decoration: none; /* Optional: removes the underline from links */
+            }
+            .sosialeMedier a:hover {
+                color: white;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            .kontaktFooter a {
+                color: white;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            .kontaktFooter a:hover {
+                color: white;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+
         </style>
+
        
-        <footer>
-            <div class="omOssFooter">Om oss</div>
-            <div class="kontaktFooter">Kontakt</div>
-            <div class="sosialeMedier">Sosiale medier</div>
-            <div class="meldePa">Meld deg på nyhetsbrev</div>
-        </footer>
+        
+<footer>
+    <div class="omOssFooter">
+        <h4>Om oss</h4>
+        <a href="omoss.html">Les mer om oss</a>
+    </div>
+    <div class="kontaktFooter">
+        <h4>Kontakt</h4>
+        Telefon: +47 123 456 789<br>
+        E-post: kontakt@kafe.no<br>
+        <a href="Kontakt.html">Kontakt oss</a>
+    </div>
+    <div class="sosialeMedier">
+        <h4>Følg oss</h4>
+        <a href="https://www.facebook.com/profile.php?id=100094552324836">Facebook</a> | <a href="https://www.instagram.com/munch.meter/">Instagram</a> | <a href="https://twitter.com/elonmusk">Twitter</a>
+    </div>
+    <div class="meldePa">
+        <h4>Nyhetsbrev</h4>
+        Meld deg på vårt nyhetsbrev for de siste oppdateringene!<br>
+        <input type="email" placeholder="E-postadresse">
+        <button>Abonner</button>
+    </div>
+</footer>
+
         
         `
     }

@@ -19,7 +19,6 @@ main {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(4, auto);
-    margin-bottom: 5rem;
 }
 
 .slideshow-container{
@@ -42,7 +41,7 @@ main {
     transition: 1s ease-in-out;
 }
 
-.informasjon h1, h2{
+.informasjon h1{
     font-size: 3rem;
     font-weight: lighter;
     text-align: center;
@@ -115,16 +114,15 @@ iframe {
 
 .container{
     position: relative;
-    width: 500px;
-    background: rgb(207, 170, 207);
+    width: 400px;
+    background: rgb(247, 232, 247);
     padding: 20px 30px;
     border: 1px solid #444;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-left: 25px;
-    margin-bottom: 25px;
 }
 
 .container .etter
@@ -154,12 +152,10 @@ iframe {
 
 .star-widget label {
     font-size: 40px;
-    color: white;
+    color: #444;
     padding: 10px;
     float: right;
     transition: all 0.2s ease;
-    width: 50px;
-    
 }
 
 input:not(:checked) ~ label:hover,
@@ -177,7 +173,7 @@ input#rate5:checked ~ label {
 }
 
 form .kommentar {
-    height: 300px;
+    height: 100px;
     width: 100%;
     overflow: hidden;
 }
@@ -190,171 +186,66 @@ form .kommentar textarea {
     padding: 10px;
     font-size: 17px;
     resize: none;
-    margin-top: 30px;
-    background: beige;
 }
 
 form .sendbtn {
-    height: 33px;
-    width: 23%;
+    height: 45px;
+    width: 100%;
     margin: 15px 0;
 }
 
 form .sendbtn button {
     height: 100%;
     width: 100%;
-    border: 1px solid darkred;
+    border: 1px solid;
     cursor: pointer;
-    background-color: darkred;
-    color: white;
 }
 
 form .sendbtn button:hover {
     background: rgb(215, 214, 214);
 }
 
-.navn {
-    position: absolute;
-    left: 30px;
-    top: 10px;
-}
-
-.navn textarea {
-    background: beige;
-}
-
-.navn {
-    position: absolute;
-    left: 30px;
-    top: 10px;
-}
-
-.navn textarea {
-    background: beige;
-}
-
-/* omoss nettsiden */
-
-* {
-    box-sizing: border-box;
-}
-
-.kontakter {
+.flex-container {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
+    justify-content: space-between;
+    align-items: start;
+    gap: 2rem;
+    flex-direction: row-reverse;
 }
 
-.kontakt-boks {
-    flex-basis: 350px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 13px;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-    background-color: lightpink;
+.info-section, .hours-section {
+    flex: 2;
 }
 
-.kontakt-boks > img {
-    width: 100%;
-    height: auto;
-    align-self: center;
-    border-radius: 5px;
-    object-fit: cover;
+.iframe-container {
+    float: right;
+    width: 300px;  /* This matches the iframe's width */
+}
+iframe {
+    margin-right: 10px;
 }
 
-.kontakt-boks > h3 {
-    font-weight: 700;
-    font-size: 18px;
+.info-section {
+    width: 70%;  /* Increasing the width of the info section */
 }
 
-.info-kontakter {
-    display: flex;
-    align-items: center;
+.hours-section {
+    width: 20%;  /* Decreasing the width of the hours section */
+    margin-left: 0%;  /* Adding a left margin to move it to the right */
 }
 
-.info-kontakter > img {
-    height: 11px;
-    margin-right: 8px;
+#openingHoursTable th {
+    padding:0 1rem;  /* Adding horizontal padding to the table headers for spacing */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;  /* Adjusting the font size */
+}
+#openingHoursTable tbody tr {
+    border-spacing: 0; 
+    border-collapse: separate;
 }
 
-.info-kontakter > p {
-    margin-block: 3px;
-    font-size: 12px;
-    color: #2B283A;
+#openingHoursTable tbody td {
+    padding: 10px 15px;  /* 10px vertical padding, 15px horizontal padding */
 }
 
 
-/* random review boks */
-
-.box-review h2 {
-    font-size: 2rem;
-    font-weight: lighter;
-    text-align: center;
-    padding: 0.5rem;
-    border-bottom: 1px solid #800020;
-    color: #800020;
-    margin: 0;
-    overflow: hidden;
-    
-}
-
-.review_bobler {
-    padding: 4px 3px;
-    background: white;
-    opacity: 0.6;
-    color:#800020;
-    text-align: center;
-    border-radius: 20px;
-    width: 470px;
-    margin: 20px 15px;
-}
-
-.name {
-    font-size: 20px;
-    margin-bottom: 5px;
-    margin-top: 3px;
-}
-
-.review_bobler-container {
-    max-height: 100%;
-    overflow-y: auto;
-}
-
-/* kontakt form stuffies */
-
-#kontakt-form {
-    background-color: pink;
-    color: #800020;
-    width: 600px;
-    height: 300px;
-    text-align: left;
-    margin: 100px auto 100px auto;
-    border: 2px solid #800020;
-}
-
-.innhold_kontakt {
-    text-align: center;
-    padding-top: 20px;
-    display: inline-block;
-    margin-left: 40px;
-}
-
-.input {
-    margin-bottom: 8px;
-}
-
-.kontakt_info {
-    text-align: center;
-    display: inline-block;
-    width: 100px;
-    vertical-align: top;
-    margin: 20px 100px;
-}
-
-textarea {
-    font-family: inherit;
- }
