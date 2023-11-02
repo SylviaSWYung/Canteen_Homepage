@@ -371,7 +371,7 @@ textarea {
 
 .iframe-container {
     float: right;
-    width: 300px;  /* This matches the iframe's width */
+    width: 10%;  /* This matches the iframe's width */
 }
 iframe {
     margin-right: 10px;
