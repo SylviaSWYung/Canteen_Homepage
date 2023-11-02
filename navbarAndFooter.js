@@ -190,7 +190,38 @@ class Foot extends HTMLElement {
                 grid-template-columns: repeat(4, 1fr);
                 padding: 2rem;
             }
+            .omOssFooter a{
+                    color: white;
+                    background-color: transparent;
+                    text-decoration: none;
+            }
+            .omOssFooter a:hover {
+                color: white;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            .sosialeMedier a {
+                color: white;
+                text-decoration: none; /* Optional: removes the underline from links */
+            }
+            .sosialeMedier a:hover {
+                color: white;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            .kontaktFooter a {
+                color: white;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            .kontaktFooter a:hover {
+                color: white;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+
         </style>
+
        
         
 <footer>
