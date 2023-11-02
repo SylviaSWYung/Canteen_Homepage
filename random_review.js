@@ -1,53 +1,60 @@
 class ReviewBox extends HTMLElement {
     constructor() {
         super();
+
+    
+        const selectedReviews = getRandomReviews(5);
+
         this.innerHTML = `
+        <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
         <style>
-            #box-review {
+            .box-review {
                 background-color: pink;
                 color: white;
-                width: 400px;
+                width: 500px;
                 height: 400px;
                 margin-right: 150px;
                 margin-bottom: 20px;
                 text-align: center;
                 float: right;
+                overflow-x: hidden;
+                overflow-y: auto;
             }
         </style>
 
-        <div id="box-review">
-            <h2>reviews</h2>
-            <p>Dette er en review</p>
-            <div id="review-1">
+        <div class="box-review">
+            <h2>
+            <i class="fa fa-star-o"></i>
+             reviews 
+            <i class="fa fa-star-o"></i>
+            </h2>
+        
+            <div class="review_bobler-container">
+                ${selectedReviews.map((review) => `
+                    <div class="review_bobler">
+                        <div class="name">${review.split(":")[0]}</div>
+                        <p>${review.split(":")[1]}</p>
+                    </div>
+                `).join('')}
             </div>
         </div>
-
-    `
+        </div>`;
     }
-    
 }
 
-var reviews = [
-    "Ben:Sykt gode kanelboller. 4/5",
-    "Trine:Iskaffen til den prinsen!!! Elsker det. 5/5",
-    "Berit:Perfekt sted å sitte når man venter på neste forlesning! Veldig god te. 5/5",
-    "Karl:Litt mye støy, men ellers fint! 3/5",
-]
-
-var max = reviews.length;
-var id1;
-var id2;
-var id3;
-
-function shuffle(reviews) {
-    reviews.sort(() => Math.random() - 0.5);
+function getRandomReviews(count) {
+    const shuffledReviews = [...reviews].sort(() => 0.5 - Math.random());
+    return shuffledReviews.slice(0, count);
 }
 
-function randomJS() {
-    shuffle(reviews);
-    document.getElementById("review-1").innerHTML = reviews[0];
-    document.getElementById("review-2").innerHTML = reviews[1];
-    document.getElementById("review-3").innerHTML = reviews[2];
-}
+let reviews = [
+    'Ben:<div class="stars"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><i class="fa fa-star-o"></i></div> Sykt gode kanelboller.',
+    'Trine:<div class="stars"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"><span class="fa fa-star checked"></div> Iskaffen til den prisen!!! Elsker det.',
+    'Berit:<div class="stars"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"><span class="fa fa-star checked"></div> Perfekt sted å sitte når man venter på neste forlesning! Veldig god te.',
+    'Karl:<div class="stars"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></div> Litt mye støy, men ellers fint!',
+    'Asgeir:<div class="stars"><span class="fa fa-star checked"></span><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></div> Altfor lang kø for å kjøpe en kopp kaffe, rakk ikke se menyen ved skranken engang før jeg måtte løpe videre'
+];
 
 customElements.define('review-box', ReviewBox);
