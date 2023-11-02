@@ -193,8 +193,7 @@ class Foot extends HTMLElement {
 
             @media screen and (max-width:700px) {
                 footer{
-                    display: grid;
-                    padding: auto;
+                    width: 100%;
                 }
             }
 
