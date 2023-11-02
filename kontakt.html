@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="nb">
 <head>
@@ -6,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="munch.css">
     <title>MunchMeter</title>
+
+    <style>
+        main {
+            margin-top: 100px;
+        }
+    </style>
+
 </head>
 <body>
     <main-header></main-header>
@@ -13,38 +19,44 @@
         <div class="informasjon">
             <h1>Kontakt oss</h1>
         </div>
-        <form id="kontakt-form" class="form-class" method="post">
-                <label for="Name" class="etikett">Navn</label>
+        <form id="kontakt-form" method="post">
+            <div class="innhold_kontakt">
+        
+                <label for="Name">Navn</label>
                 <div class="input">
-                    <input type="text" id="Name" name="Name">
+                    <input type="text" id="Name" name="name" required>
                 </div>
-            <div class="form-class">
-                <label for="Email" class="etikett">Your email address</label>
+
+                <label for="Email">Din email adresse</label>
                 <div class="input">
-                    <input type="email" id="Email" name="Email">
+                    <input type="email" id="Email" name="Email" required>
                 </div>
-            <div class="form-class">
-                <label for="Message" class="fcf-label">Your message</label>
-                <div class="input">
-                    <textarea id="Message" name="Message" rows="6" maxlength="3000"></textarea>
+                
+                <label for="Message">Din melding</label>
+                <div class="input_kontakt">
+                    <textarea id="kontaktboks" rows="6" maxlength="3000" required></textarea>
                 </div>
+        
+                <button type="submit" id="form-button-kontakt" class="button">Send</button>
             </div>
-            <div class="form-class">
-                <button type="submit" id="form-button" class="button">Send</button>
+            <div class="kontakt_info">
+                <p>
+                    <b>E-mail:</b>
+                    <br></br>
+                    dreamteam@online.ntnu.com
+                </p>
+                <br>
+                <p>
+                    <b>Hovedkontor:</b>
+                    <br></br>
+                    A4, realfagsbygget
+                </p>
             </div>
-        </div>
+        </form>
         
     </main>
-    <footer>
-        <div class="omOssFooter">Om oss</div>
-        <div class="kontaktFooter">Kontakt</div>
-        <div class="sosialeMedier">Sosiale medier</div>
-        <div class="meldePa">Meld deg på nyhetsbrev</div>
-    </footer>
+    <main-footer></main-footer>
     <script src="munch.js"></script>
     <script src="navbarAndFooter.js"></script>
     </body>
     </html>
-=======
-
->>>>>>> d93dbd07091e0c69405ca3105fe4efc9153dfe03
