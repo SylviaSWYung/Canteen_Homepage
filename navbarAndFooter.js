@@ -157,7 +157,7 @@ class Header extends HTMLElement {
                             <button class="dropbtn" id="kafe">Kafé</button>
                             <div class="dropdown_innhold">
                                 <a href="sitorealfag.html">SITO Realfag</a>
-                                <a href="#">SITO Hangarn</a>
+                                <a href="cafehangarn.html">SITO Hangarn</a>
                                 <a href="elbygget.html">SITO Elektro</a>
                             </div>
                         </div>            
@@ -190,14 +190,38 @@ class Foot extends HTMLElement {
                 grid-template-columns: repeat(4, 1fr);
                 padding: 2rem;
             }
-
-            @media screen and (max-width:700px) {
-                footer{
-                    width: 100%;
-                }
+            .omOssFooter a{
+                    color: white;
+                    background-color: transparent;
+                    text-decoration: none;
+            }
+            .omOssFooter a:hover {
+                color: white;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            .sosialeMedier a {
+                color: white;
+                text-decoration: none; /* Optional: removes the underline from links */
+            }
+            .sosialeMedier a:hover {
+                color: white;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            .kontaktFooter a {
+                color: white;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            .kontaktFooter a:hover {
+                color: white;
+                background-color: transparent;
+                text-decoration: underline;
             }
 
         </style>
+
        
         
 <footer>
