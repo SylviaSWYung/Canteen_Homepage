@@ -328,6 +328,12 @@ textarea {
     .informasjon{
         margin: 1rem 5rem;
     }
+
+    iframe {
+        position: relative;
+        margin: 5rem;
+        right: 5rem;
+    }
 }
 
  .flex-container {
