@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="munch.css">
+    <title>MunchMeter</title>
 
+    <style>
+        main {
+            margin-top: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <main-header></main-header>
+    <main>
+        <div class="informasjon">
+            <h1>Kontakt oss</h1>
+        </div>
+        <form id="kontakt-form" method="post">
+            <div class="innhold_kontakt">
+        
+                <label for="Name">Navn</label>
+                <div class="input">
+                    <input type="text" id="Name" name="name" required>
+                </div>
+
+                <label for="Email">Din email adresse</label>
+                <div class="input">
+                    <input type="email" id="Email" name="Email" required>
+                </div>
+                
+                <label for="Message">Din melding</label>
+                <div class="input_kontakt">
+                    <textarea id="kontaktboks" rows="6" maxlength="3000" required></textarea>
+                </div>
+        
+                <button type="submit" id="form-button-kontakt" class="button">Send</button>
+            </div>
+            <div class="kontakt_info">
+                <p>
+                    <b>E-mail:</b>
+                    <br></br>
+                    dreamteam@online.ntnu.com
+                </p>
+                <br>
+                <p>
+                    <b>Hovedkontor:</b>
+                    <br></br>
+                    A4, realfagsbygget
+                </p>
+            </div>
+        </form>
+        
+    </main>
+    <main-footer></main-footer>
+    <script src="munch.js"></script>
+    <script src="navbarAndFooter.js"></script>
+    </body>
+    </html>

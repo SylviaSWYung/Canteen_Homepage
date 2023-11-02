@@ -32,7 +32,7 @@ body{
     transition: 1s ease-in-out;
 }
 
-.informasjon h1{
+.informasjon h1, h2{
     font-size: 3rem;
     font-weight: lighter;
     text-align: center;
@@ -193,3 +193,139 @@ form .sendbtn button:hover {
 .navn textarea {
     background: beige;
 }
+
+.navn {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+
+.navn textarea {
+    background: beige;
+}
+
+/* omoss nettsiden */
+
+* {
+    box-sizing: border-box;
+}
+
+.kontakter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.kontakt-boks {
+    flex-basis: 350px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    background-color: lightpink;
+}
+
+.kontakt-boks > img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.kontakt-boks > h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.info-kontakter {
+    display: flex;
+    align-items: center;
+}
+
+.info-kontakter > img {
+    height: 11px;
+    margin-right: 8px;
+}
+
+.info-kontakter > p {
+    margin-block: 3px;
+    font-size: 12px;
+    color: #2B283A;
+}
+
+
+/* random review boks */
+
+.box-review h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #800020;
+    color: #800020;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+.review_bobler {
+    padding: 4px 3px;
+    background: white;
+    opacity: 0.6;
+    color:#800020;
+    text-align: center;
+    border-radius: 20px;
+    width: 470px;
+    margin: 20px 15px;
+}
+
+.name {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.review_bobler-container {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+/* kontakt form stuffies */
+
+#kontakt-form {
+    background-color: pink;
+    color: #800020;
+    width: 600px;
+    height: 300px;
+    text-align: left;
+    margin: 100px auto 100px auto;
+    border: 2px solid #800020;
+}
+
+.innhold_kontakt {
+    text-align: center;
+    padding-top: 20px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.input {
+    margin-bottom: 8px;
+}
+
+.kontakt_info {
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+    margin: 20px 100px;
+}
+
+textarea {
+    font-family: inherit;
+ }
