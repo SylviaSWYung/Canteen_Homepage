@@ -29,9 +29,9 @@ Alle må huske å skrive på P3_gr8.html, se hva som skal legges inn
 - Odin: review med stjerne, sette det inn på en javascript fil. 
 - Helle: nesten ferdig med siden. skriv flere fake reviews
 - Markus: gjøre ferdig den andre siden 
-- Adele: begynne å skrive litt på P3_gr8.html fil 
+- Adele: begynne å skrive litt på P3_gr8.html fil + hjelpe sylvia 
 - Jenni: fikse layout, legge til bilder. Skrive P3 fil
-- Sylvia: fikse reponsive mobil grid, fikse width på dropdown navbar 
+- Sylvia: fikse reponsive mobil grid
 
 Generelt for alle nettsider:
 - Navbar --> Adele
