@@ -233,4 +233,73 @@ form .sendbtn button:hover {
 }
 
 
-  
+/* random review boks */
+
+.box-review h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #800020;
+    color: #800020;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+.review_bobler {
+    padding: 4px 3px;
+    background: white;
+    opacity: 0.6;
+    color:#800020;
+    text-align: center;
+    border-radius: 20px;
+    width: 470px;
+    margin: 20px 15px;
+}
+
+.name {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.review_bobler-container {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+/* kontakt form stuffies */
+
+#kontakt-form {
+    background-color: pink;
+    color: #800020;
+    width: 600px;
+    height: 300px;
+    text-align: left;
+    margin: 100px auto 100px auto;
+    border: 2px solid #800020;
+}
+
+.innhold_kontakt {
+    text-align: center;
+    padding-top: 20px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.input {
+    margin-bottom: 8px;
+}
+
+.kontakt_info {
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+    margin: 20px 100px;
+}
+
+textarea {
+    font-family: inherit;
+ }
