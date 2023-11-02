@@ -190,7 +190,6 @@ class Foot extends HTMLElement {
                 grid-template-columns: repeat(4, 1fr);
                 padding: 2rem;
             }
-<<<<<<< HEAD
             .omOssFooter a{
                     color: white;
                     background-color: transparent;
@@ -219,13 +218,6 @@ class Foot extends HTMLElement {
                 color: white;
                 background-color: transparent;
                 text-decoration: underline;
-=======
-
-            @media screen and (max-width:700px) {
-                footer{
-                    width: 100%;
-                }
->>>>>>> 6ca15f17b7fb47f24ffa9a363bf1b9410709d1bf
             }
 
         </style>
