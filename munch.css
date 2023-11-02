@@ -64,6 +64,10 @@ h2{
     color: #800020;
 }
 
+.informasjon{
+    margin: 1rem 5rem;
+}
+
 .informasjon p{
     grid-row: 3;
     color: black;
@@ -323,13 +327,6 @@ textarea {
     font-family: inherit;
 }
 
-/* når screen size er større enn 1200px så endrer margin seg */
-@media screen and (min-width: 1200px) {
-    .informasjon{
-        margin: 1rem 5rem;
-    }
-}
-
  .flex-container {
     display: flex;
     justify-content: space-between;
@@ -346,6 +343,7 @@ textarea {
     float: right;
     width: 10%;  /* This matches the iframe's width */
 }
+
 iframe {
     margin-right: 10px;
 }
