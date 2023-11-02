@@ -78,41 +78,6 @@ iframe {
     margin: 3rem 10rem 0rem 3rem;
 }
 
-/* når screen size er større enn 1200px så endrer margin seg */
-@media screen and (min-width: 1200px) {
-    .informasjon{
-        margin: 1rem 5rem;
-    }
-}
-
-/* når screen size er mindre enn 1200px så endrer margin seg */
-@media screen and (max-width: 1200px) {
-    .informasjon {
-        margin: 1rem 2rem 0rem;
-    }
-
-    .informasjon p{
-        grid-row: 3;
-        color: black;
-        line-height: 200%;
-        font-size: 12px;
-        text-align: left;
-    }
-
-    iframe {
-        margin: 3rem 2rem;
-    }
-}
-
-@media screen and (max-width:700px) {
-    .informasjon{
-        margin: 1rem 1.5rem;           
-    }
-    .informasjon h1{
-        font-size: 2rem;
-    } 
-}  
-
 .container{
     position: relative;
     width: 500px;
@@ -356,4 +321,39 @@ form .sendbtn button:hover {
 
 textarea {
     font-family: inherit;
- }
+}
+
+/* når screen size er større enn 1200px så endrer margin seg */
+@media screen and (min-width: 1200px) {
+    .informasjon{
+        margin: 1rem 5rem;
+    }
+}
+
+/* når screen size er mindre enn 1200px så endrer margin seg */
+@media screen and (max-width: 1200px) {
+    .informasjon {
+        margin: 1rem 2rem 0rem;
+    }
+
+    .informasjon p{
+        grid-row: 3;
+        color: black;
+        line-height: 200%;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    iframe {
+        margin: 3rem 2rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .informasjon{
+        margin: 1rem 1.5rem;           
+    }
+    .informasjon h1{
+        font-size: 2rem;
+    } 
+}  
