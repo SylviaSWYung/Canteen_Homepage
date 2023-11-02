@@ -103,7 +103,7 @@ class Header extends HTMLElement {
                 display: none;
                 position: absolute;
                 background-color: #FDF0D5;
-                min-width: 160px;
+                min-width: 157px;
                 z-index: 1;
             }
             
