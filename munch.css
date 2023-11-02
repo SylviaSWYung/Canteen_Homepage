@@ -130,6 +130,7 @@ iframe {
     padding: 10px;
     float: right;
     transition: all 0.2s ease;
+    width: 50px;
     
 }
 
