@@ -330,6 +330,49 @@ textarea {
     }
 }
 
+ .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 2rem;
+    flex-direction: row-reverse;
+}
+
+.info-section, .hours-section {
+    flex: 2;
+}
+
+.iframe-container {
+    float: right;
+    width: 300px;  /* This matches the iframe's width */
+}
+iframe {
+    margin-right: 10px;
+}
+
+.info-section {
+    width: 70%;  /* Increasing the width of the info section */
+}
+
+.hours-section {
+    width: 20%;  /* Decreasing the width of the hours section */
+    margin-left: 0%;  /* Adding a left margin to move it to the right */
+}
+
+#openingHoursTable th {
+    padding:0 1rem;  /* Adding horizontal padding to the table headers for spacing */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;  /* Adjusting the font size */
+}
+#openingHoursTable tbody tr {
+    border-spacing: 0; 
+    border-collapse: separate;
+}
+
+#openingHoursTable tbody td {
+    padding: 10px 15px;  /* 10px vertical padding, 15px horizontal padding */
+}
+
 /* når screen size er mindre enn 1200px så endrer margin seg */
 @media screen and (max-width: 1200px) {
     .informasjon {
@@ -356,4 +399,5 @@ textarea {
     .informasjon h1{
         font-size: 2rem;
     } 
-}  
+
+} 
