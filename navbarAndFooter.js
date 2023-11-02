@@ -157,7 +157,7 @@ class Header extends HTMLElement {
                             <button class="dropbtn" id="kafe">Kafé</button>
                             <div class="dropdown_innhold">
                                 <a href="sitorealfag.html">SITO Realfag</a>
-                                <a href="#">SITO Hangarn</a>
+                                <a href="cafehangarn.html">SITO Hangarn</a>
                                 <a href="elbygget.html">SITO Elektro</a>
                             </div>
                         </div>            
