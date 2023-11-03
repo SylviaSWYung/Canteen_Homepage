@@ -224,28 +224,28 @@ class Foot extends HTMLElement {
 
        
         
-<footer>
-    <div class="omOssFooter">
-        <h4>Om oss</h4>
-        <a href="omoss.html">Les mer om oss</a>
-    </div>
-    <div class="kontaktFooter">
-        <h4>Kontakt</h4>
-        Telefon: +47 123 456 789<br>
-        E-post: kontakt@kafe.no<br>
-        <a href="Kontakt.html">Kontakt oss</a>
-    </div>
-    <div class="sosialeMedier">
-        <h4>Følg oss</h4>
-        <a href="https://www.facebook.com/profile.php?id=100094552324836">Facebook</a> | <a href="https://www.instagram.com/munch.meter/">Instagram</a> | <a href="https://twitter.com/elonmusk">Twitter</a>
-    </div>
-    <div class="meldePa">
-        <h4>Nyhetsbrev</h4>
-        Meld deg på vårt nyhetsbrev for de siste oppdateringene!<br>
-        <input type="email" placeholder="E-postadresse">
-        <button>Abonner</button>
-    </div>
-</footer>
+        <footer>
+            <div class="omOssFooter">
+                <h4>Om oss</h4>
+                <a href="omoss.html">Les mer om oss</a>
+            </div>
+            <div class="kontaktFooter">
+                <h4>Kontakt</h4>
+                Telefon: +47 123 456 789<br>
+                E-post: kontakt@kafe.no<br>
+                <a href="Kontakt.html">Kontakt oss</a>
+            </div>
+            <div class="sosialeMedier">
+                <h4>Følg oss</h4>
+                <a href="https://www.facebook.com/profile.php?id=100094552324836">Facebook</a> | <a href="https://www.instagram.com/munch.meter/">Instagram</a> | <a href="https://twitter.com/elonmusk">Twitter</a>
+            </div>
+            <div class="meldePa">
+                <h4>Nyhetsbrev</h4>
+                Meld deg på vårt nyhetsbrev for de siste oppdateringene!<br>
+                <input type="email" placeholder="E-postadresse">
+                <button>Abonner</button>
+            </div>
+        </footer>
 
         
         `
