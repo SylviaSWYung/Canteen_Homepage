@@ -387,39 +387,22 @@ iframe {
 
     iframe {
         margin: 3rem 2rem;
+        width: 600;
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .informasjon{
         margin: 1rem 1.5rem;           
     }
     .informasjon h1{
         font-size: 2rem;
     } 
-
-} 
-
-/* når screen size er større enn 1200px så endrer margin seg */
-@media screen and (min-width: 1200px) {
-    .informasjon{
-        margin: 1rem 5rem;
-    }
-
-    iframe {
-        /* position: relative; */
-        margin: 5rem;
-        right: 5rem;
-        width: 600;
-    }
-}
-
-/* Mazemap vil halveres når siden blir mindre */
-@media screen and (max-width: 800px){
     iframe {
         width: 300px;
     }   
-}
+
+} 
 
 /* media Query for mobil versjon med grid */
 /* @media screen and (max-width:700px){
