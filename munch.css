@@ -411,10 +411,11 @@ iframe {
 
     iframe {
         margin: 3rem 2rem;
+        width: 600;
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .informasjon{
         margin: 1rem 1.5rem;           
     }
