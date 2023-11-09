@@ -22,6 +22,34 @@ class ReviewBox extends HTMLElement {
                 overflow-x: hidden;
                 overflow-y: auto;
             }
+
+            @media screen and (max-width: 800px){
+                .box-review {
+                    width: 300px;
+                    height: 400px;
+                    margin: 3rem 10rem 0rem 2rem;
+                }
+                .review_bobler {
+                    padding: 4px 3px;
+                    text-align: center;
+                    border-radius: 20px;
+                    width: 235px;
+                    margin: 20px 15px;
+                }
+                
+                .name {
+                    font-size: 20px;
+                    margin-bottom: 5px;
+                    margin-top: 3px;
+                }
+                
+                .review_bobler-container {
+                    max-height: 100%;
+                    overflow-y: auto;
+                    margin: 10px 10px;
+                }
+            
+            }
         </style>
 
         <div class="box-review">
