@@ -19,14 +19,14 @@ class ReviewBox extends HTMLElement {
                 float: right;
                 overflow-x: hidden;
                 overflow-y: auto;
-                margin: 3rem 10rem 0rem 3rem;
+                margin: 3rem 5.5rem 0rem 3rem;
             }
 
             @media screen and (max-width: 1200px){
                 .box-review {
                     width: 300px;
                     height: 400px;
-                    margin: 3rem 10rem 0rem 2rem;
+                    margin: 3rem 3.5rem 0rem 2rem;
                 }
                 .review_bobler {
                     padding: 4px 3px;
