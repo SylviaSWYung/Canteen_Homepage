@@ -333,17 +333,10 @@ textarea {
     .informasjon{
         margin: 1rem 5rem;
     }
-
-    iframe {
-        /* position: relative; */
-        margin: 5rem;
-        right: 5rem;
-        width: 600;
-    }
 }
 
 /* Mazemap vil halveres når siden blir mindre */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1200px){
     iframe {
         width: 300px;
     }   

@@ -22,7 +22,7 @@ class ReviewBox extends HTMLElement {
                 margin: 3rem 10rem 0rem 3rem;
             }
 
-            @media screen and (max-width: 800px){
+            @media screen and (max-width: 1200px){
                 .box-review {
                     width: 300px;
                     height: 400px;
