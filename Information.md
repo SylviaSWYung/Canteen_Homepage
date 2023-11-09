@@ -24,13 +24,14 @@ Målet i dag + information
         - Kjelhuset --> en kantine i kjelhuset --> Markus 
 
 
-Gjøremål til neste møte: 
-- Odin: review med stjerne
-- Helle: anmelde liste m/jenni
-- Markus: informasjon på footer 
-- Adele: Skrive tekst til home page 
-- Jenni: anmelde liste/helle
-- Sylvia: navbar høyde, og hover farge 
+Gjøremål til neste møte: Generelt: alle skriver tekstene sine, og fikser bilder. 
+Alle må huske å skrive på P3_gr8.html, se hva som skal legges inn 
+- Odin: review med stjerne, sette det inn på en javascript fil. 
+- Helle: nesten ferdig med siden. skriv flere fake reviews
+- Markus: gjøre ferdig den andre siden 
+- Adele: begynne å skrive litt på P3_gr8.html fil 
+- Jenni: fikse layout på omoss og kontakt siden, legge til bilder i om oss. Skrive P3 fil, gjøre kontaktskjema og random reviews responsive.
+- Sylvia: fikse reponsive mobil grid, fikse width på dropdown navbar 
 
 Generelt for alle nettsider:
 - Navbar --> Adele

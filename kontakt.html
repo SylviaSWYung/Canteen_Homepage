@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="munch.css">
+    <link rel="icon" type="img/x-icon" href="img/favicon.ico">
     <title>MunchMeter</title>
 
     <style>
         main {
             margin-top: 100px;
+            grid-template-columns: none;
         }
     </style>
 
@@ -19,7 +21,7 @@
         <div class="informasjon">
             <h1>Kontakt oss</h1>
         </div>
-        <form id="kontakt-form" method="post">
+        <form id="kontakt-form">
             <div class="innhold_kontakt">
         
                 <label for="Name">Navn</label>
@@ -37,7 +39,8 @@
                     <textarea id="kontaktboks" rows="6" maxlength="3000" required></textarea>
                 </div>
         
-                <button type="submit" id="form-button-kontakt" class="button">Send</button>
+                <button type="button" onclick="alertFunction()" id="form-button-kontakt" class="button">Send</button>
+                <p id="formknapp"></p>
             </div>
             <div class="kontakt_info">
                 <p>
@@ -58,5 +61,16 @@
     <main-footer></main-footer>
     <script src="munch.js"></script>
     <script src="navbarAndFooter.js"></script>
+    <script>
+        function alertFunction() {
+            var txt;
+            if (confirm("Vil du sende inn skjemaet?")) {
+                txt = "Du har sendt inn skjemaet.";
+            } else {
+                txt = "Du har avbrutt innsendingen."
+            }
+            document.getElementById("formknapp").innerHTML = txt;
+        }
+    </script>
     </body>
     </html>
