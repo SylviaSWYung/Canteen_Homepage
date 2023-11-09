@@ -12,28 +12,31 @@ class ReviewBox extends HTMLElement {
         <style>
             .box-review {
                 background-color: pink;
+                width: 32rem;
+                height: 25rem;
+                margin: auto 5.5rem 0rem 3rem;
+            }
+
+            .review_bobler-container {
+                background-color: pink;
                 color: white;
-                width: 500px;
-                height: 400px;
                 text-align: center;
-                float: right;
                 overflow-x: hidden;
                 overflow-y: auto;
-                margin: 3rem 10rem 0rem 3rem;
             }
 
             @media screen and (max-width: 1200px){
                 .box-review {
-                    width: 300px;
-                    height: 400px;
-                    margin: 3rem 10rem 0rem 2rem;
+                    width: 19rem;
+                    height: 25rem;
+                    margin: auto 3.5rem 0rem 2rem;
                 }
                 .review_bobler {
                     padding: 4px 3px;
                     text-align: center;
                     border-radius: 20px;
                     width: 235px;
-                    margin: 20px 15px;
+                    margin: 20px auto;
                 }
                 
                 .name {
@@ -45,7 +48,6 @@ class ReviewBox extends HTMLElement {
                 .review_bobler-container {
                     max-height: 100%;
                     overflow-y: auto;
-                    margin: 10px 10px;
                 }
             
             }
@@ -53,11 +55,10 @@ class ReviewBox extends HTMLElement {
 
         <div class="box-review">
             <h2>
-            <i class="fa fa-star-o"></i>
-             reviews 
-            <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                Reviews 
+                <i class="fa fa-star-o"></i>
             </h2>
-        
             <div class="review_bobler-container">
                 ${selectedReviews.map((review) => `
                     <div class="review_bobler">
