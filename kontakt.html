@@ -21,7 +21,7 @@
         <div class="informasjon">
             <h1>Kontakt oss</h1>
         </div>
-        <form id="kontakt-form" method="post">
+        <form id="kontakt-form">
             <div class="innhold_kontakt">
         
                 <label for="Name">Navn</label>
@@ -39,7 +39,8 @@
                     <textarea id="kontaktboks" rows="6" maxlength="3000" required></textarea>
                 </div>
         
-                <button type="submit" id="form-button-kontakt" class="button">Send</button>
+                <button type="button" onclick="alertFunction()" id="form-button-kontakt" class="button">Send</button>
+                <p id="formknapp"></p>
             </div>
             <div class="kontakt_info">
                 <p>
@@ -60,5 +61,16 @@
     <main-footer></main-footer>
     <script src="munch.js"></script>
     <script src="navbarAndFooter.js"></script>
+    <script>
+        function alertFunction() {
+            var txt;
+            if (confirm("Vil du sende inn skjemaet?")) {
+                txt = "Du har sendt inn skjemaet.";
+            } else {
+                txt = "Du har avbrutt innsendingen."
+            }
+            document.getElementById("formknapp").innerHTML = txt;
+        }
+    </script>
     </body>
     </html>
