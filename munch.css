@@ -94,7 +94,7 @@ iframe {
     flex-direction: column;
     margin-left: 25px;
     margin-bottom: 25px;
-    margin: 3rem 10rem 0rem 3rem;
+    margin:3rem 10rem 0rem 3rem;
 }
 
 .container .etter
@@ -298,8 +298,8 @@ form .sendbtn button:hover {
 #kontakt-form {
     background-color: pink;
     color: #800020;
-    width: 600px;
-    height: 300px;
+    width: 630px;
+    height: 350px;
     text-align: left;
     margin: 100px auto 100px auto;
     border: 2px solid #800020;
@@ -333,10 +333,17 @@ textarea {
     .informasjon{
         margin: 1rem 5rem;
     }
+
+    iframe {
+        /* position: relative; */
+        margin: 5rem;
+        right: 5rem;
+        width: 600;
+    }
 }
 
 /* Mazemap vil halveres når siden blir mindre */
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 800px){
     iframe {
         width: 300px;
     }   
