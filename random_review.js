@@ -15,12 +15,11 @@ class ReviewBox extends HTMLElement {
                 color: white;
                 width: 500px;
                 height: 400px;
-                margin-right: 150px;
-                margin-bottom: 20px;
                 text-align: center;
                 float: right;
                 overflow-x: hidden;
                 overflow-y: auto;
+                margin: 3rem 10rem 0rem 3rem;
             }
 
             @media screen and (max-width: 800px){
