@@ -6,16 +6,11 @@ class Review extends HTMLElement {
         <style>
             .container{
                 position: relative;
-                width: 500px;
-                background: rgb(207, 170, 207);
-                padding: 20px 30px;
-                border: 1px solid #444;
-                display: flex;
+                width: 32rem;
+                background: pink;
                 align-items: center;
                 justify-content: center;
-                flex-direction: column;
-                margin-left: 25px;
-                margin-bottom: 25px;
+                margin: auto 5.5rem 0rem 3rem;
             }
             
             .container .etter
@@ -101,7 +96,7 @@ class Review extends HTMLElement {
             }
             
             form .sendbtn button:hover {
-                background: rgb(215, 214, 214);
+                background: rgb(95, 3, 3);
             }
             
             .navn {
@@ -163,11 +158,11 @@ class Review extends HTMLElement {
         `
 
         
-const sendbtn = this.document.querySelector("button");
-const etter = this.document.querySelector(".etter");
-const widget = this.document.querySelector(".star-widget");
-const editBtn = this.document.querySelector(".edit");
-const navnTittel = this.document.querySelector(".navn");
+const sendbtn = document.querySelector("button");
+const etter = document.querySelector(".etter");
+const widget = document.querySelector(".star-widget");
+const editBtn = document.querySelector(".edit");
+const navnTittel = document.querySelector(".navn");
 sendbtn.onclick = ()=>{
     widget.style.display = "none";
     navnTittel.style.display = "none";
