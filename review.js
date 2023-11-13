@@ -3,6 +3,9 @@ class Review extends HTMLElement {
         super();
    
         this.innerHTML = `
+        <head>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        </head>
         <style>
             .container{
                 position: relative;
@@ -75,14 +78,14 @@ class Review extends HTMLElement {
                 border: 1px solid #333;
                 padding: 10px;
                 font-size: 17px;
-                resize: none;
+                resize: both;
                 margin-top: 30px;
                 background: beige;
             }
             
             form .sendbtn {
                 height: 33px;
-                width: 23%;
+                width: 100px;
                 margin: 15px 0;
             }
             
@@ -109,15 +112,34 @@ class Review extends HTMLElement {
                 background: beige;
             }
             
-            .navn {
-                position: absolute;
-                left: 30px;
-                top: 10px;
+            @media screen and (max-width: 1200px){
+                .container{
+                    width: 19rem;
+                    height: 28rem;
+                    margin: auto 3.5rem 0rem 2rem;
+                }
+
+                .star-widget label{
+                    font-size: 30px;
+                    width: 35px;
+                    margin-top: 30px;
+                    
+                }
+
+                form .kommentar {
+                    height: 180px;
+                }
+
+                form .kommentar textarea {
+                    margin-top: 10px;
+                }
+
+                .navn {
+                    margin-bottom: 10px;
+                }
+
             }
-            
-            .navn textarea {
-                background: beige;
-            }
+           
         </style>
         <div class="container">
             <div class="etter">
