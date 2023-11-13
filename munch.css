@@ -353,7 +353,7 @@ textarea {
 
  .flex-container {
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: start;
     gap: 2rem;
     flex-direction: row-reverse;
@@ -377,22 +377,29 @@ iframe {
 }
 
 .hours-section {
-    width: 20%;  /* Decreasing the width of the hours section */
-    margin-left: 0%;  /* Adding a left margin to move it to the right */
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
+
+
 #openingHoursTable th {
-    padding:0 1rem;  /* Adding horizontal padding to the table headers for spacing */
+    padding:0 2rem;  /* Adding horizontal padding to the table headers for spacing */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2rem;  /* Adjusting the font size */
 }
 #openingHoursTable tbody tr {
     border-spacing: 0; 
     border-collapse: separate;
+    text-align: left;
 }
 
 #openingHoursTable tbody td {
-    padding: 10px 15px;  /* 10px vertical padding, 15px horizontal padding */
+    padding: 10px 15px; 
+    text-align: center; /* 10px vertical padding, 15px horizontal padding */
 }
 
 /* når screen size er mindre enn 1200px så endrer margin seg */
@@ -422,4 +429,9 @@ iframe {
     .informasjon h1{
         font-size: 2rem;
     }
-} 
+} .random-reviews-section {
+    width: 100%; /* Adjust the width as needed */
+    padding: 1rem; /* Add padding as desired */
+    /* Additional styling here */
+}
+
