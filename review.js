@@ -13,7 +13,7 @@ class Review extends HTMLElement {
                 background: pink;
                 align-items: center;
                 justify-content: center;
-                margin: auto 5.5rem 0rem 3rem;
+                margin: auto 5.5rem 0rem 10rem;
             }
             
             .container .etter
