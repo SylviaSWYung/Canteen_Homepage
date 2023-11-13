@@ -328,19 +328,6 @@ textarea {
     font-family: inherit;
 }
 
-/* når screen size er større enn 1200px så endrer margin seg */
-@media screen and (min-width: 1200px) {
-    .informasjon{
-        margin: 1rem 5rem;
-    }
-}
-
-/* Mazemap vil halveres når siden blir mindre */
-@media screen and (max-width: 1200px){
-    iframe {
-        width: 300px;
-    }   
-}
 
 /* media Query for mobil versjon med grid */
 /* @media screen and (max-width:700px){
@@ -384,12 +371,14 @@ iframe {
     align-items: center;
 }
 
-
+#openingHoursTable {
+    font-size: 0.8rem;
+}
 
 #openingHoursTable th {
     padding:0 2rem;  /* Adding horizontal padding to the table headers for spacing */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2rem;  /* Adjusting the font size */
+    font-size: 1rem;  /* Adjusting the font size */
 }
 #openingHoursTable tbody tr {
     border-spacing: 0; 
@@ -418,7 +407,7 @@ iframe {
 
     iframe {
         margin: 3rem 2rem;
-        width: 600;
+        width: 300px;
     }
 }
 
