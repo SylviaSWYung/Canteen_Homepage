@@ -298,11 +298,13 @@ form .sendbtn button:hover {
 #kontakt-form {
     background-color: pink;
     color: #800020;
-    width: 630px;
+    width: 700px;
     height: 350px;
     text-align: left;
-    margin: 100px auto 100px auto;
+    margin: 10px auto 10px auto;
     border: 2px solid #800020;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .innhold_kontakt {
@@ -317,7 +319,7 @@ form .sendbtn button:hover {
 }
 
 .kontakt_info {
-    text-align: center;
+    text-align: left;
     display: inline-block;
     width: 100px;
     vertical-align: top;
