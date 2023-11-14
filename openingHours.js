@@ -1,4 +1,5 @@
 
+
 document.addEventListener("DOMContentLoaded", function() {
     // Definerer åpningstider for hver dag
     const openingHours = {
