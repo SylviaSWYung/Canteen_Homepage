@@ -73,7 +73,7 @@ h2{
     color: black;
     line-height: 200%;
     font-size: 15px;
-    text-align: justify;
+    text-align: justify;    
 }
 
 /* Holder på å gjøre noe men ga opp lol - S */
@@ -327,17 +327,6 @@ form .sendbtn button:hover {
 textarea {
     font-family: inherit;
 }
-
-
-/* media Query for mobil versjon med grid */
-/* @media screen and (max-width:700px){
-    .informasjon{
-        grid-column: 1 / 3; 
-        grid-row: 3; 
-    }
-
-} */
-
  .flex-container {
     display: flex;
     justify-content:flex-start;
@@ -384,6 +373,7 @@ iframe {
     border-spacing: 0; 
     border-collapse: separate;
     text-align: left;
+    font-size: medium;
 }
 
 #openingHoursTable tbody td {
@@ -423,4 +413,3 @@ iframe {
     padding: 1rem; /* Add padding as desired */
     /* Additional styling here */
 }
-
