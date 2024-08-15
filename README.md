@@ -1,6 +1,6 @@
 # Project Overview 
 
-This project is part of the Web Technology course at NTNU, where the task is to create a website for an imaginary client. The goal of this project is to develop a website for the cafeterias and coffee shops on the Gløshaugen Campus, focusing on those with the best food selection. The purpose is to provide a simple and efficient solution for users to discover which dining options on campus offer the best food variety. The website will offer an overview of the cafeteria, kiosk, and coffee shop options on Gløshaugen, complete with reviews, menus, and opening hours.
+This project is part of the Web Technology course for first-time students at NTNU, where the task is to create a website for an imaginary client. The goal of this project is to develop a website for the cafeterias and coffee shops on the Gløshaugen Campus, focusing on those with the best food selection. The purpose is to provide a simple and efficient solution for users to discover which dining options on campus offer the best food variety. The website will offer an overview of the cafeteria, kiosk, and coffee shop options on Gløshaugen, complete with reviews, menus, and opening hours.
 
 ## Specific Features 
 - **User Reviews:** Users will be able to submit their own reviews and assign a star rating to each dining option.
